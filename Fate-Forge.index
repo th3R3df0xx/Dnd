@@ -3,12 +3,12 @@
 	<info>
 		<name>Fate-Forge</name>
 		<update version="0.0.2">
-			<file name="Fate-Forge.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords.index" />
+			<file name="Fate-Forge.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords/source.xml" />
-		<file name="Subclass-Wizard-Disenchanter.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords/race-thyleancentaur.xml" />
-		<file name="Subclass-Wizard-Elementalist.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords/items-gifts.xml" />
+		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Spells.xml" />
+		<file name="Subclass-Wizard-Disenchanter.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Subclass-Wizard-Disenchanter.xml" />
+		<file name="Subclass-Wizard-Elementalist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Subclass-Wizard-Elementalist.xml" />
 	</files>
 </index>
