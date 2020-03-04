@@ -4,7 +4,7 @@
 		<name>Third Party</name>
 		<description>The content from various third party sources.</description>
 		<update version="0.0.1">
-			<file name="Dnd-third-party.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Dnd-third-party" />
+			<file name="Dnd-third-party.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games.index" />
 		</update>
 	</info>
 	<files>
