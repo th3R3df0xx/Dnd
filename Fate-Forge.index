@@ -7,6 +7,7 @@
 		</update>
 	</info>
 	<files>
+		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Source.xml" />
 		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Spells.xml" />
 		<file name="Subclass-Wizard-Disenchanter.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Subclass-Wizard-Disenchanter.xml" />
 		<file name="Subclass-Wizard-Elementalist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Subclass-Wizard-Elementalist.xml" />
