@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Third Party</name>
-		<description>The content from various third party sources.</description>
+		<name>Purple-Aether-Games</name>
+		
 		<update version="0.0.1">
-			<file name="Dnd-third-party.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games.index" />
+			<file name="Purple-Aether-Games.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games.index" />
 		</update>
 	</info>
 	<files>
-		<file name="arcanum-worlds.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/spells.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/spells.xml" />
 		
 
 		
