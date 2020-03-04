@@ -3,7 +3,7 @@
 
 <info>
 		<update version="0.0.1">
-			<file name="spells.xml" url="" />
+			<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/The-Elemental-Spellbook/Spells.xml" />
 		</update>
 	</info>
 	<element name="The Elemental Spellbook" type="Source" source="Core" id="ID_JACOB_THE_ELEMENTAL_SPELLBOOK">
