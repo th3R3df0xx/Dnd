@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Core</name>
+		<description>The content from the Humblewood Handbook.</description>
+		<author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.0.1">
+			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
+		
+		<!-- races -->
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+
+		<!-- classes -->
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+		<file name="2" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/class-" />
+
+		<!-- backgrounds -->		
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+		<file name="3" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/background-" />
+
+		<!-- items -->
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
+
+		<!-- misc -->
+		<file name="languages.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/languages.xml" />
+		<file name="feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/feats.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/spells.xml" />
+		<file name="deities.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/deities.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/companions.xml" />
+	</files>
+</index>
