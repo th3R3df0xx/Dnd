@@ -35,16 +35,8 @@
 		<file name="Background-Grounded.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Grounded.xml" />
 		<file name="Background-Wind-Touched.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Wind-Touched.xml" />
 
-		<!-- items -->
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-		<file name="4" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/items-" />
-
 		<!-- misc -->
+		<file name="Magic-Items.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Magic-Items.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/languages.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/feats.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/spells.xml" />
