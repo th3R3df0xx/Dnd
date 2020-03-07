@@ -19,7 +19,7 @@
 		<file name="Race-Mapach.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Mapach.xml" />
 		<file name="Race-Raptor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Raptor.xml" />
 		<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
-		<file name="Race-Vulpin.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Vulpin.xml" />
+		<file name="Race-Vulpin.xml" url="https://raw.githubuserconten.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Vulpin.xml" />
 		<file name="Race-Corvum.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Corvum.xml" />
 		<file name="Race-Gallus.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Gallus" />
 
@@ -40,7 +40,6 @@
 		<file name="Languages.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Languages.xml" />
 		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Feats.xml" />
 		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
-		<file name="Deities.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Deities.xml" />
 		<file name="Companions.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Companions.xml" />
 	</files>
 </index>
