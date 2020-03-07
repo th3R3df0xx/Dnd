@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <element name="Hummblewood" type="Source" source="Core" id="ID_DOM_H_SOURCE_HUMMBLEWOOD">
-        <description>
-            <p>
-                Humblewood is a campaign setting for 5e in which you get to play as Birdfolk and other woodland creatures.
-            </p>
-        </description>
-        <setters>
-            <set name="abbreviation">H</set>
-            <set name="url">https://thedeckofmany.com/products/humblewood-hardcover-campaign-book</set>
-            <set name="image">https://cdn.shopify.com/s/files/1/0002/1033/7850/products/Screen_Shot_2019-11-10_at_8.37.50_PM_2000x2000.png?v=1573436314</set>
-            <set name="author" abbreviation="DOM" url="https://thedeckofmany.com/">Deck of Many</set>
-            <set name="third-party">true</set>
-
-
-        </setters>
-    </element>
+    	<info>
+		<name>Jerbeen</name>
+		<description></description>
+		<author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.0.1">
+			<file name="Race-Jerbeen.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Jerbeen.xml" />
+		</update>
+	</info>
 
 
 
