@@ -237,7 +237,7 @@ poison and resistance against poison damage.
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 		</rules>
     </element>
-    <element name=" Scroungecraft." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_MAPACH_ SCROUNGECRAFT">
+    <element name="Scroungecraft." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_MAPACH_SCROUNGECRAFT">
         <description>
             <p>
                 You are proficient with tinker’s tools.
