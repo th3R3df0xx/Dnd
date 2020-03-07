@@ -114,7 +114,8 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strength" value="2" />
+            <stat name="intelligence" value="2" />
+             <stat name="Charisma" value="1" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
