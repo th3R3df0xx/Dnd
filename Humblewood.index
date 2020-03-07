@@ -37,9 +37,7 @@
 
 		<!-- misc -->
 		<file name="Magic-Item.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Magic-Item.xml" />
-		<file name="Languages.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Languages.xml" />
 		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Feats.xml" />
 		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
-		<file name="Companions.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Companions.xml" />
-	</files>
+		</files>
 </index>
