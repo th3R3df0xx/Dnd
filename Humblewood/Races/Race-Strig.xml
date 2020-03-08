@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 <info>
-		<name>Cervan</name>
+		<name>Strig</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.1">
-			<file name="Race-Cervan.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Cervan.xml" />
+			<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
 		</update>
 	</info>
 
 
 
-	<element name="Cervan" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_CERVAN">
+	<element name="Strig" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_STRIG">
 		<description>
 			<p>Strigs are the most imposing of the birdfolk races. Resembling
 owls, their thick feathers, solid bodies, and broad wings
@@ -48,7 +48,7 @@ and community bonds that transcend a permanent or single
 physical home.
 			</p>
 			
-			<h4>CERVAN TRAITS</h4>
+			<h4>STRIG TRAITS</h4>
 			<p>Your cervan character has certain characteristics in common with all other cervan.</p>
 			<p class="indent">
 				<strong>
@@ -151,7 +151,7 @@ and stout. Choose one of these subraces.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TALONS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PATTERNED_FEATHERS" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CERVAN_SUBRACE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STRIG_SUBRACE" />
 		</rules>
 	</element>
 	<element name="Glide" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SURGE_OF_VIGOR">
@@ -222,17 +222,18 @@ reasonably grip.
 		</description>
 	</element>
 	
-	<element name="Cervan Subrace" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_CERVAN_SUBRACE">
+	<element name="Strig Subrace" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STRIG_SUBRACE">
 		<description>
-			<p>There are two main subraces of cervans: grove or pronghorn. Choose one of these subraces.</p>
+			<p>There are two main subraces of strigs: swift
+and stout. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Sub Race" name="Cervan Subrace" supports="Cervan" />
+			<select type="Sub Race" name="Strig Subrace" supports="Strig" />
 		</rules>
 	</element>
-	<element name="Grove Cervan" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_GROVE_CERVAN">
-		<supports>Cervan</supports>
+	<element name="Stout Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_STOUT_STRIG">
+		<supports>Strig</supports>
 		<description>
 			<p>
 				As a stout strig, you are as hearty as you are strong, able
@@ -275,25 +276,27 @@ target as a bonus action.</p>
 				Your base walking speed increases to 35 feet.
 			</p>
 		</description>
-		<sheet display="false">
-			<description>Your speed increases to 35 feet.</description>
-		</sheet>
-		<rules>
-			<stat name="innate speed" value="35" bonus="base" />
+		<description>You have proficiency
+in the Intimidation skill.</description>
+<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 		</rules>
+		</sheet>
 		</element>
 	<element name="Brawler" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
 		<description>
-			<p>Your base long jump is 30 feet, and your
-base high jump is 15 feet, with or without a running start.</p>
+			<p>When you successfully attack a target
+with your talons, you can choose to grapple that
+target as a bonus action.</p>
 		</description>
 		<sheet>
-			<description>Your base long jump is 30 feet, and your
-base high jump is 15 feet, with or without a running start.</description>
+			<description>When you successfully attack a target
+with your talons, you can choose to grapple that
+target as a bonus action.</description>
 		</sheet>
 		
 	</element>
-	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_PRONGHORN_CERVAN">
+	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_PRONGHORN_STRIG">
 		<supports>Strig</supports>
 		<description>
 			<p>
