@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 <info>
-		<name>Strig</name>
+		<name>Raptor</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.1">
-			<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
+			<file name="Race-Raptor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Raptor.xml" />
 		</update>
 	</info>
 
 
 
-	<element name="Strig" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_STRIG">
+	<element name="Raptor" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_RAPTOR">
 		<description>
 			<p>When the birdfolk think of hunters or rangers, they picture
 a raptor. Resembling small hawks, eagles, and other birds of
@@ -135,7 +135,7 @@ three-quarters cover as half cover and half cover as no cover.
 short bow, and spear. Additionally, your familiarity
 with the longbow means that it is not considered a heavy
 weapon for you.
-18 Chapter
+
 			</p>
 			<p class="indent">
 				<strong>
@@ -156,10 +156,10 @@ my5			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING" />
-		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STRIG_SUBRACE" />
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Glide" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_GLIDE">
+	<element name="Glide" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_GLIDE">
 		<description>
 			<p>Using your feathered arms, you can slow your
 fall, and glide short distances. When falling you can use your
@@ -190,7 +190,7 @@ are encumbered.</description>
 		</sheet>
 	
 	</element>
-	<element name="Talons" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
 		<description>
 			<p>
 				Your sharp claws aid you in unarmed combat and
@@ -212,7 +212,7 @@ reasonably grip.
 		</description>
 		</sheet>
 	</element>
-	<element name="Keen Senses" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+	<element name="Keen Senses" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_KEEN_SENSES">
 		<description>
 			<p>
 				You have proficiency in the Perception skill.
@@ -229,143 +229,189 @@ reasonably grip.
 		</rules>
 		</sheet>
 	</element>
-	
-	<element name="Strig Subrace" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STRIG_SUBRACE">
+	<element name="woodland Hunter" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER">
 		<description>
-			<p>There are two main subraces of strigs: swift
-and stout. Choose one of these subraces.</p>
+			<p>
+				Your accuracy allows you to treat
+three-quarters cover as half cover and half cover as no cover.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				Your accuracy allows you to treat
+three-quarters cover as half cover and half cover as no cover.
+			</p>
+		</description>
+		
+		</sheet>
+	</element>
+    <element name="Hunter’s Training" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING">
+		<description>
+			<p>
+				You have proficiency with the longbow,
+short bow, and spear. Additionally, your familiarity
+with the longbow means that it is not considered a heavy
+weapon for you.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				You have proficiency with the longbow,
+short bow, and spear. Additionally, your familiarity
+with the longbow means that it is not considered a heavy
+weapon for you.
+			</p>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			
+		</rules>
+		</sheet>
+	</element>
+	<element name="Raptor Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE">
+		<description>
+			<p>There are two main subraces of raptor:
+mistral and maran. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Sub Race" name="Strig Subrace" supports="Strig" />
+			<select type="Sub Race" name="Raptor Subrace" supports="Raptor" />
 		</rules>
 	</element>
-	<element name="Stout Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_STOUT_STRIG">
-		<supports>Strig</supports>
+	<element name="Maran Raptor" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_MARAN_RAPTOR">
+		<supports>Raptor</supports>
 		<description>
 			<p>
-				As a stout strig, you are as hearty as you are strong, able
-to weather hardship and impose your will on the world
-around you.
+				As a maran raptor, you are as at home in the
+water as you are in the trees. You also have a wealth of
+patience, acting only when it best suits your goals.
 			</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
 				</strong>
-			Your Constitution score increases by 1.
+			Your Intelligence score increases by 1.
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Imposing.</em>
+					<em>Swimmer</em>
 				</strong>
-				You have proficiency in the Intimidation
-skill.
+				You have a swimming speed of 25 feet.
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Brawler.</em>
+					<em>Patient.</em>
 				</strong>
-				When you successfully attack a target
-with your talons, you can choose to grapple that
-target as a bonus action.</p>
+				When you react with a readied action,
+you have advantage on the first attack roll, skill
+check, or ability check you make as a part of
+that action.</p>
             
 		</description>
 	
 		<rules>
-			<stat name="constitution" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIFT" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STANDING_LEAP" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_STEP" />
-		</rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIMMER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PATIENT" />
+          		</rules>
 	</element>
-	<element name="Imposing" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SWIFT">
+	<element name="Swimmer" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIMMER">
 		<description>
 			<p>
-				Your base walking speed increases to 35 feet.
+				You have a swimming speed of 25 feet.
 			</p>
-		</description>
-		<description>You have proficiency
-in the Intimidation skill.</description>
+		</description><sheet>
+		<description>You have a swimming speed of 25 feet..</description>
 
 		</sheet>
 		</element>
-	<element name="Brawler" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+	<element name="Patient" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
 		<description>
-			<p>When you successfully attack a target
-with your talons, you can choose to grapple that
-target as a bonus action.</p>
+			<p>When you react with a readied action,
+you have advantage on the first attack roll, skill
+check, or ability check you make as a part of
+that action.</p>
 		</description>
 		<sheet>
-			<description>When you successfully attack a target
-with your talons, you can choose to grapple that
-target as a bonus action.</description>
+			<description>When you react with a readied action,
+you have advantage on the first attack roll, skill
+check, or ability check you make as a part of
+that action.</description>
 		</sheet>
 		
 	</element>
-	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_PRONGHORN_STRIG">
-		<supports>Strig</supports>
+	<element name="Mistral Raptor" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_MISTRAL_RAPTOR">
+		<supports>Raptor</supports>
 		<description>
 			<p>
-				As a swift strig, you are a powerful
-force in the Wood who ranges far and
-wide without ever missing a step. You
-are most capable when immersed in
-the forest.
+				As a mistral raptor, you are most at home
+far from the ground. You can range for miles
+in the Wood without ever setting talon to
+soil, moving more confidently through the
+branches than some move on flat ground.
 			</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
 				</strong>
-				Your Dexterity score increases by 1.
+				Your Wisdom score increases by 1.
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Swift</em>
+					<em>Agile</em>
 				</strong>
-				Your base walking speed
-increases to 35 feet.
+				You have proficiency in the
+Acrobatics skill.
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Survivor</em>
+					<em>Aerial Defense</em>
 				</strong>
-				You have proficiency
-in the Survival skill.</p>
+				Creatures that
+attack you while you are falling, gliding,
+or jumping have disadvantage on their
+attack roll.</p>
 		</description>
 		<sheet display="false" />
 				<rules>
-			<stat name="dexterity" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROBUST_BUILD" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTLERS" />
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AERIAL_DEFENSE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AGILE" />
 		</rules>
 	</element>
-	<element name="Swift." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ROBUST_BUILD">
+	<element name="Aerial Defense." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_AERIAL_DEFENSE">
 		<description>
 			<p>
-				Your base walking speed
-increases to 35 feet.
+				Creatures that
+attack you while you are falling, gliding,
+or jumping have disadvantage on their
+attack roll.
 			</p>
 		</description>
 		<sheet display="false">
 			<description>
-				Your base walking speed
-increases to 35 feet.
+				Creatures that
+attack you while you are falling, gliding,
+or jumping have disadvantage on their
+attack roll.
 			</description>
-           <rules>
-			<stat name="innate speed" value="35" bonus="base" />
-		</rules>
+          
 		</sheet>
 	</element>
-	<element name="Survivor" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ANTLERS">
+	<element name="Agile" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_AGILE">
 		<description>
 			<p>You have proficiency
-in the Survival skill.</p>
+in the Acrobatics skill.</p>
 		</description>
 		<sheet display="false">
 			<description>You have proficiency
-in the Survival skill.</description>
+in the Acrobatics skill.</description>
 <rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
 		</rules>
 		</sheet>
 			</element>
