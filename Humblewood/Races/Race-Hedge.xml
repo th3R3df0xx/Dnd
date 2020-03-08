@@ -11,7 +11,7 @@
 
 
 
-    <element name="Hedge" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_HEDGE">
+    <element name="Hedge" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_HEDGE">
         <description>
 
             <p>
@@ -189,7 +189,7 @@ regardless of their size.
         </rules>
     </element>
 
-    <element name="NATURAL BURROWERS." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_HEDGE_NATURAL_BURROWERS">
+    <element name="NATURAL BURROWERS." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HEDGE_NATURAL_BURROWERS">
         <description>
             <p>
                You have a burrowing speed of
@@ -210,7 +210,7 @@ your clawed hands.
 			<stat name="innate speed:burrow" value="15" bonus="base" />
 		</rules>
  </element>
-    <element name="Spiny Quills." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_HEDGE_SPINY_QUILLS">
+    <element name="Spiny Quills." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HEDGE_SPINY_QUILLS">
         <description>
             <p>
                The backs of hedges are covered with
@@ -238,7 +238,7 @@ you have a base AC is {{ac:natural armor hedge}}. You can’t wear armor,But can
 			<stat name="ac:calculation" value="ac:natural armor hedge" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Hedge)" />
 		</rules>
     </element>
-    <element name="Speak With Bugs." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_HEDGE_SPEAK_WITH_BUGS">
+    <element name="Speak With Bugs." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HEDGE_SPEAK_WITH_BUGS">
         <description>
             <p>
                Through sounds
@@ -260,7 +260,7 @@ regardless of their size.
             </description>
         </sheet>
          </element>
-         <element name="Curl Up." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_HEDGE_CURL_UP">
+         <element name="Curl Up." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HEDGE_CURL_UP">
         <description>
             <p>
               You can use your action to curl up, exposing
@@ -297,7 +297,7 @@ any point during your turn.
             </description>
         </sheet>
        </element>
-    <element name="Forest Magic." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_HEDGE_FOREST_MAGIC">
+    <element name="Forest Magic." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HEDGE_FOREST_MAGIC">
         <description>
             <p>
               You have a deep
