@@ -11,7 +11,7 @@
 
 
 
-    <element name="Vulpin" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_VULPIN">
+    <element name="Vulpin" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_VULPIN">
         <description>
 
             <p>
@@ -118,7 +118,7 @@
         </rules>
     </element>
 
-    <element name="Bite." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_VULPIN_BITE">
+    <element name="Bite." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_VULPIN_BITE">
         <description>
             <p>
                 You have sharp fangs that enable you to make natural
@@ -139,7 +139,7 @@
         </sheet>
 
     </element>
-    <element name="Evasive." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_VULPIN_EVASIVE">
+    <element name="Evasive." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_VULPIN_EVASIVE">
         <description>
             <p>
                 You add your Intelligence modifier as a bonus on
@@ -156,7 +156,7 @@
             <stat name="dexterity:save:misc" value="intelligence:modifier"/>
         </rules>
     </element>
-    <element name=" Bewitching Guile" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_VULPIN_ BEWITCHING_GUILE">
+    <element name=" Bewitching Guile" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_VULPIN_ BEWITCHING_GUILE">
         <description>
             <p>
                 You can cast charm person as a 1st level
