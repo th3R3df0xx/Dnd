@@ -11,7 +11,7 @@
 
 
 
-    <element name="Jerbeen" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_JERBEEN">
+    <element name="Jerbeen" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_JERBEEN">
         <description>
 
             <p>
@@ -139,7 +139,7 @@ that you can both see and hear.
         </rules>
     </element>
 
-    <element name="STANDING LEAP." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_JERBEEN_STANDING_LEAP">
+    <element name="STANDING LEAP." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_JERBEEN_STANDING_LEAP">
         <description>
             <p>
                Your base long jump is 30 feet, and your
@@ -154,7 +154,7 @@ base high jump is 15 feet, with or without a running start.
         </sheet>
         
  </element>
-    <element name="Nimbleness." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_JERBEEN_NIMBLENESS">
+    <element name="Nimbleness." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_JERBEEN_NIMBLENESS">
         <description>
             <p>
                 You can move through the space of any creature
@@ -168,7 +168,7 @@ that is of a size larger than yours.
             </description>
         </sheet>
     </element>
-    <element name="Take Heart." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_JERBEEN_TAKE_HEART">
+    <element name="Take Heart." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_JERBEEN_TAKE_HEART">
         <description>
             <p>
                You have advantage on Strength saving throws
@@ -186,7 +186,7 @@ that you can both see and hear.
             </description>
         </sheet>
        </element>
-    <element name="Team Tactics." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_JERBEEN_TEAM_TACTICS">
+    <element name="Team Tactics." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_JERBEEN_TEAM_TACTICS">
         <description>
             <p>
                You can use the Help action as a
