@@ -11,7 +11,7 @@
 
 
 
-    <element name="Mapach" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_MAPACH">
+    <element name="Mapach" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_MAPACH">
         <description>
 
             <p>
@@ -181,7 +181,7 @@ together is up to the GM.
         </rules>
     </element>
 
-    <element name="EXPERT CLIMBERS." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_MAPACH_EXPERT_CLIMBERS">
+    <element name="EXPERT CLIMBERS." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_MAPACH_EXPERT_CLIMBERS">
         <description>
             <p>
                 You have a climb speed of 20 feet.
@@ -196,7 +196,7 @@ together is up to the GM.
 			<stat name="innate speed:climb" value="20" bonus="base" />
 		</rules>
  </element>
-    <element name="Skulker." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_MAPACH_SKULKER">
+    <element name="Skulker." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_MAPACH_SKULKER">
         <description>
             <p>
                 You have advantage on
@@ -212,7 +212,7 @@ and darkness.
             </description>
         </sheet>
     </element>
-    <element name="Resilience." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_MAPACH_RESILIENCE">
+    <element name="Resilience." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_MAPACH_RESILIENCE">
         <description>
             <p>
                You have advantage on saving throws against
@@ -229,7 +229,7 @@ poison and resistance against poison damage.
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 		</rules>
     </element>
-    <element name="Scroungecraft." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_MAPACH_SCROUNGECRAFT">
+    <element name="Scroungecraft." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_MAPACH_SCROUNGECRAFT">
         <description>
             <p>
                 You are proficient with tinker’s tools.
