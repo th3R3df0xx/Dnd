@@ -11,7 +11,7 @@
 
 
 
-	<element name="Cervan" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_CERVAN">
+	<element name="Cervan" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_CERVAN">
 		<description>
 			<p>Cervans are a versatile deer-like folk who make their
 homes in small, intimate villages throughout Humblewood.
@@ -202,7 +202,7 @@ long rest
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CERVAN_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Surge of Vigor" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SURGE_OF_VIGOR">
+	<element name="Surge of Vigor" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SURGE_OF_VIGOR">
 		<description>
 			<p>All cervans possess a great tenacity and
 will to survive, which allows them to bounce back from even
@@ -225,7 +225,7 @@ long rest.</description>
 		</sheet>
 	
 	</element>
-	<element name="Practical" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+	<element name="Practical" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
 		<description>
 			<p>
 				Cervans are eminently practical
@@ -242,7 +242,7 @@ Medicine, Nature, or Survival.
 		
 	</element>
 	
-	<element name="Cervan Subrace" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_CERVAN_SUBRACE">
+	<element name="Cervan Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_CERVAN_SUBRACE">
 		<description>
 			<p>There are two main subraces of cervans: grove or pronghorn. Choose one of these subraces.</p>
 		</description>
@@ -251,7 +251,7 @@ Medicine, Nature, or Survival.
 			<select type="Sub Race" name="Cervan Subrace" supports="Cervan" />
 		</rules>
 	</element>
-	<element name="Grove Cervan" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_GROVE_CERVAN">
+	<element name="Grove Cervan" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_GROVE_CERVAN">
 		<supports>Cervan</supports>
 		<description>
 			<p>
@@ -295,7 +295,7 @@ are rolled with disadvantage.
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_STEP" />
 		</rules>
 	</element>
-	<element name="Swift" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SWIFT">
+	<element name="Swift" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIFT">
 		<description>
 			<p>
 				Your base walking speed increases to 35 feet.
@@ -308,7 +308,7 @@ are rolled with disadvantage.
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
 		</element>
-	<element name="Standing Leap" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+	<element name="Standing Leap" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
 		<description>
 			<p>Your base long jump is 30 feet, and your
 base high jump is 15 feet, with or without a running start.</p>
@@ -319,7 +319,7 @@ base high jump is 15 feet, with or without a running start.</description>
 		</sheet>
 		
 	</element>
-<element name="Nimble Step" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_NIMBLE_STEP">
+<element name="Nimble Step" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_NIMBLE_STEP">
 		<description>
 			<p>Opportunity attacks made against you
 are rolled with disadvantage.</p>
@@ -331,7 +331,7 @@ are rolled with disadvantage.</description>
 		
 	</element>
 
-	<element name="Pronghorn Cervan" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_PRONGHORN_CERVAN">
+	<element name="Pronghorn Cervan" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_PRONGHORN_CERVAN">
 		<supports>Cervan</supports>
 		<description>
 			<p>
@@ -379,7 +379,7 @@ Strength saving throw against a DC of your Proficiency Bonus
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTLERS" />
 		</rules>
 	</element>
-	<element name="Robust Build." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ROBUST_BUILD">
+	<element name="Robust Build." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_ROBUST_BUILD">
 		<description>
 			<p>
 				Your carrying capacity is doubled, as is the
@@ -396,7 +396,7 @@ weight you can push, drag, or lift.
     </rules>
 		</sheet>
 	</element>
-	<element name="Antlers" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ANTLERS">
+	<element name="Antlers" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_ANTLERS">
 		<description>
 			<p>You have a set of large, strong antlers that
 can be used to make devastating charge attacks. You
