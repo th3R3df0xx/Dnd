@@ -11,7 +11,7 @@
 
 
 
-	<element name="Strig" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_STRIG">
+	<element name="Strig" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_STRIG">
 		<description>
 			<p>Strigs are the most imposing of the birdfolk races. Resembling
 owls, their thick feathers, solid bodies, and broad wings
@@ -154,7 +154,7 @@ and stout. Choose one of these subraces.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STRIG_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Glide" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_GLIDE">
+	<element name="Glide" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_GLIDE">
 		<description>
 			<p>Using your feathered arms, you can slow your
 fall, and glide short distances. When falling you can use your
@@ -185,7 +185,7 @@ are encumbered.</description>
 		</sheet>
 	
 	</element>
-	<element name="Talons" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_TALONS">
+	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_TALONS">
 		<description>
 			<p>
 				Your sharp claws aid you in unarmed combat and
@@ -206,7 +206,7 @@ reasonably grip.
 			</p>
 		</description>
 	</element>
-	<element name="Patterned feathers" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PATTERNED_FEATHERS">
+	<element name="Patterned feathers" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PATTERNED_FEATHERS">
 		<description>
 			<p>
 				You have advantage on Dexterity
@@ -222,7 +222,7 @@ reasonably grip.
 		</description>
 	</element>
 	
-	<element name="Strig Subrace" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STRIG_SUBRACE">
+	<element name="Strig Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STRIG_SUBRACE">
 		<description>
 			<p>There are two main subraces of strigs: swift
 and stout. Choose one of these subraces.</p>
@@ -232,9 +232,8 @@ and stout. Choose one of these subraces.</p>
 			<select type="Sub Race" name="Strig Subrace" supports="Strig" />
 		</rules>
 	</element>
-	<element name="Stout Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_STOUT_STRIG">
-		<supports>Strig</supports>
-		<description>
+	<element name="Stout Strig" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_STOUT_STRIG">
+		<supports>Strig</supports>		<description>
 			<p>
 				As a stout strig, you are as hearty as you are strong, able
 to weather hardship and impose your will on the world
@@ -270,7 +269,7 @@ target as a bonus action.</p>
            
 		</rules>
 	</element>
-	<element name="Imposing" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_IMPOSING">
+	<element name="Imposing" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_IMPOSING">
 		<description>
 			<p>
 				Your base walking speed increases to 35 feet.
@@ -283,7 +282,7 @@ in the Intimidation skill.</description>
 		</rules>
 		</sheet>
 		</element>
-	<element name="Brawler" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_BRAWLER">
+	<element name="Brawler" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_BRAWLER">
 		<description>
 			<p>When you successfully attack a target
 with your talons, you can choose to grapple that
@@ -296,7 +295,7 @@ target as a bonus action.</description>
 		</sheet>
 		
 	</element>
-	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_SWIFT_STRIG">
+	<element name="Swift Strig" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_SWIFT_STRIG">
 		<supports>Strig</supports>
 		<description>
 			<p>
@@ -333,7 +332,7 @@ in the Survival skill.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTLERS" />
 		</rules>
 	</element>
-	<element name="Swift." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SWIFT">
+	<element name="Swift." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIFT">
 		<description>
 			<p>
 				Your base walking speed
@@ -350,7 +349,7 @@ increases to 35 feet.
 		</rules>
 		</sheet>
 	</element>
-	<element name="Survivor" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SURVIVOR">
+	<element name="Survivor" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SURVIVOR">
 		<description>
 			<p>You have proficiency
 in the Survival skill.</p>
