@@ -1,1 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<info>
+		<name>Strig</name>
+		<description></description>
+		<author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.0.1">
+			<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
+		</update>
+	</info>
 
+
+
+	<element name="Strig" type="Race" source="Hummblewood" id="ID_DOM_H_SOURCE_HUMMBLEWOOD_STRIG">
+		<description>
+			<p>When the birdfolk think of hunters or rangers, they picture
+a raptor. Resembling small hawks, eagles, and other birds of
+prey, they have sharp talons and agile builds that help them
+effortlessly glide through the canopy. These birdfolk are swift
+and strong with an uncanny knack for tracking. They are rarely
+prey, and are quick to turn the tables when finding themselves
+hunted.</p>
+			<h4>Perceptive Awareness</h4>
+			<p>
+				
+Given their heightened senses, often raptors appear to be
+distracted or deep in thought. In reality, they are processing the
+wealth of sensory information they receive from their particularly
+keen eyes and sensitive ears. While many folk are only
+ever aware of what goes on directly around them, raptors have
+an extremely wide field of awareness.
+Raptors are adept at living off the land. They are skilled
+hunters, usually leading the harvesting of meat and skins for
+their perches. Raptors are especially well versed in stalking prey
+from great heights, lining up impossible shots that their prey
+could not predict.</p>
+			<H4>Natural Predator</H4>
+			<p>
+				While many of the birdfolk races are culturally communal,
+raptors don’t have a great sense of connectedness, nor do they
+tend to create their own perches. They are more likely to adopt
+a transient lifestyle, moving from perch to perch, or to simply
+live in the vast forests of the Wood itself.
+Though typically quiet, raptors are not averse to forming
+relationships with other birdfolk. Despite their reserved nature,
+raptors value personal bonds more highly than societal or even
+familial ties.
+			</p>
+			
+			<h4>RAPTOR TRAITS</h4>
+			<p>Your Raptor character has certain characteristics in common with all other Raptor.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong>
+				Your Dexterity score
+increases by 2.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Age.</em>
+				</strong>
+				Raptors reach maturity around 20 years. They can live
+longer than any other birdfolk race, over 100 years.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Alignment.</em>
+				</strong>
+				Raptors tend towards neutral alignments.
+Preferring the path of naturalists and hunters, raptors rarely
+see value in order for the sake of order, and are often more
+pragmatic than idealistic.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong>
+				Raptors are lean, muscular hunters, but they stand
+less than 4 feet tall. Their light builds usually lend themselves
+to bodies that weigh far less than one would expect for their
+height, averaging around only 35 pounds. Your size is Small.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong>
+				Your base walking speed is 25 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Glide.</em>
+				</strong>
+				Using your feathered arms, you can slow your
+fall, and glide short distances. When falling you can use your
+reaction to spread your arms, stiffen your wing feathers, and
+slow your descent. While doing so, you continue to fall gently
+at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may
+fly up to your movement speed in one direction you choose,
+although you cannot choose to move upwards, landing in
+the space you finish your movement. You cannot glide while
+carrying heavy weapons or wielding a shield (though you may
+drop any held items as part of your reaction to spread your
+arms). You cannot glide while wearing heavy armor, or if you
+are encumbered.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Talons</em>
+				</strong>
+				Your sharp claws aid you in unarmed combat and
+while climbing. Your damage for an unarmed strike is 1d4
+piercing damage. Additionally, you have advantage on Strength
+(Athletics) checks made to climb any surface your talons could
+reasonably grip.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Keen Senses</em>
+				</strong>
+				You have proficiency in the Perception skill
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Woodland Hunter.</em>
+				</strong>
+				Your accuracy allows you to treat
+three-quarters cover as half cover and half cover as no cover.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Hunter's Training</em>
+				</strong>
+				You have proficiency with the longbow,
+short bow, and spear. Additionally, your familiarity
+with the longbow means that it is not considered a heavy
+weapon for you.
+18 Chapter
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Subrace.</em>
+				</strong>
+				There are two main subraces of raptor:
+mistral and maran. Choose one of these subraces.</p>
+
+		</description>
+		
+		<rules>
+			<stat name="dexterity" value="2"  />
+			<stat name="innate speed" value="25" bonus="base" />
+my5			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TALONS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING" />
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STRIG_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Glide" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_GLIDE">
+		<description>
+			<p>Using your feathered arms, you can slow your
+fall, and glide short distances. When falling you can use your
+reaction to spread your arms, stiffen your wing feathers, and
+slow your descent. While doing so, you continue to fall gently
+at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may
+fly up to your movement speed in one direction you choose,
+although you cannot choose to move upwards, landing in
+the space you finish your movement. You cannot glide while
+carrying heavy weapons or wielding a shield (though you may
+drop any held items as part of your reaction to spread your
+arms). You cannot glide while wearing heavy armor, or if you
+are encumbered.</p>
+		</description>
+		<sheet>
+			<description>Using your feathered arms, you can slow your
+fall, and glide short distances. When falling you can use your
+reaction to spread your arms, stiffen your wing feathers, and
+slow your descent. While doing so, you continue to fall gently
+at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may
+fly up to your movement speed in one direction you choose,
+although you cannot choose to move upwards, landing in
+the space you finish your movement. You cannot glide while
+carrying heavy weapons or wielding a shield (though you may
+drop any held items as part of your reaction to spread your
+arms). You cannot glide while wearing heavy armor, or if you
+are encumbered.</description>
+		</sheet>
+	
+	</element>
+	<element name="Talons" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+		<description>
+			<p>
+				Your sharp claws aid you in unarmed combat and
+while climbing. Your damage for an unarmed strike is 1d4
+piercing damage. Additionally, you have advantage on Strength
+(Athletics) checks made to climb any surface your talons could
+reasonably grip.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				Your sharp claws aid you in unarmed combat and
+while climbing. Your damage for an unarmed strike is 1d4
+piercing damage. Additionally, you have advantage on Strength
+(Athletics) checks made to climb any surface your talons could
+reasonably grip.
+			</p>
+		</description>
+		</sheet>
+	</element>
+	<element name="Keen Senses" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+		<description>
+			<p>
+				You have proficiency in the Perception skill.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				You have proficiency in the Perception skill.
+			</p>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+		</sheet>
+	</element>
+	
+	<element name="Strig Subrace" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STRIG_SUBRACE">
+		<description>
+			<p>There are two main subraces of strigs: swift
+and stout. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Strig Subrace" supports="Strig" />
+		</rules>
+	</element>
+	<element name="Stout Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_STOUT_STRIG">
+		<supports>Strig</supports>
+		<description>
+			<p>
+				As a stout strig, you are as hearty as you are strong, able
+to weather hardship and impose your will on the world
+around you.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong>
+			Your Constitution score increases by 1.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Imposing.</em>
+				</strong>
+				You have proficiency in the Intimidation
+skill.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Brawler.</em>
+				</strong>
+				When you successfully attack a target
+with your talons, you can choose to grapple that
+target as a bonus action.</p>
+            
+		</description>
+	
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIFT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STANDING_LEAP" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_STEP" />
+		</rules>
+	</element>
+	<element name="Imposing" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SWIFT">
+		<description>
+			<p>
+				Your base walking speed increases to 35 feet.
+			</p>
+		</description>
+		<description>You have proficiency
+in the Intimidation skill.</description>
+
+		</sheet>
+		</element>
+	<element name="Brawler" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+		<description>
+			<p>When you successfully attack a target
+with your talons, you can choose to grapple that
+target as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>When you successfully attack a target
+with your talons, you can choose to grapple that
+target as a bonus action.</description>
+		</sheet>
+		
+	</element>
+	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_PRONGHORN_STRIG">
+		<supports>Strig</supports>
+		<description>
+			<p>
+				As a swift strig, you are a powerful
+force in the Wood who ranges far and
+wide without ever missing a step. You
+are most capable when immersed in
+the forest.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong>
+				Your Dexterity score increases by 1.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Swift</em>
+				</strong>
+				Your base walking speed
+increases to 35 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Survivor</em>
+				</strong>
+				You have proficiency
+in the Survival skill.</p>
+		</description>
+		<sheet display="false" />
+				<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROBUST_BUILD" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTLERS" />
+		</rules>
+	</element>
+	<element name="Swift." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ROBUST_BUILD">
+		<description>
+			<p>
+				Your base walking speed
+increases to 35 feet.
+			</p>
+		</description>
+		<sheet display="false">
+			<description>
+				Your base walking speed
+increases to 35 feet.
+			</description>
+           <rules>
+			<stat name="innate speed" value="35" bonus="base" />
+		</rules>
+		</sheet>
+	</element>
+	<element name="Survivor" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ANTLERS">
+		<description>
+			<p>You have proficiency
+in the Survival skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency
+in the Survival skill.</description>
+<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+		</sheet>
+			</element>
+</elements>
