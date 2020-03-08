@@ -49,7 +49,7 @@ physical home.
 			</p>
 			
 			<h4>STRIG TRAITS</h4>
-			<p>Your cervan character has certain characteristics in common with all other cervan.</p>
+			<p>Your Straig character has certain characteristics in common with all other Straig.</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
@@ -154,7 +154,7 @@ and stout. Choose one of these subraces.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STRIG_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Glide" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SURGE_OF_VIGOR">
+	<element name="Glide" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_GLIDE">
 		<description>
 			<p>Using your feathered arms, you can slow your
 fall, and glide short distances. When falling you can use your
@@ -185,7 +185,7 @@ are encumbered.</description>
 		</sheet>
 	
 	</element>
-	<element name="Talons" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+	<element name="Talons" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_TALONS">
 		<description>
 			<p>
 				Your sharp claws aid you in unarmed combat and
@@ -206,7 +206,7 @@ reasonably grip.
 			</p>
 		</description>
 	</element>
-	<element name="Patterned feathers" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+	<element name="Patterned feathers" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_PATTERNED_FEATHERS">
 		<description>
 			<p>
 				You have advantage on Dexterity
@@ -265,12 +265,12 @@ target as a bonus action.</p>
 	
 		<rules>
 			<stat name="constitution" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIFT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPOSING" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STANDING_LEAP" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_STEP" />
+           
 		</rules>
 	</element>
-	<element name="Imposing" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SWIFT">
+	<element name="Imposing" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_IMPOSING">
 		<description>
 			<p>
 				Your base walking speed increases to 35 feet.
@@ -283,7 +283,7 @@ in the Intimidation skill.</description>
 		</rules>
 		</sheet>
 		</element>
-	<element name="Brawler" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+	<element name="Brawler" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_BRAWLER">
 		<description>
 			<p>When you successfully attack a target
 with your talons, you can choose to grapple that
@@ -296,7 +296,7 @@ target as a bonus action.</description>
 		</sheet>
 		
 	</element>
-	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_PRONGHORN_STRIG">
+	<element name="Swift Strig" type="Sub Race" source="Hummblewood" id="ID_SUB_RACE_SWIFT_STRIG">
 		<supports>Strig</supports>
 		<description>
 			<p>
@@ -333,7 +333,7 @@ in the Survival skill.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTLERS" />
 		</rules>
 	</element>
-	<element name="Swift." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ROBUST_BUILD">
+	<element name="Swift." type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SWIFT">
 		<description>
 			<p>
 				Your base walking speed
@@ -350,7 +350,7 @@ increases to 35 feet.
 		</rules>
 		</sheet>
 	</element>
-	<element name="Survivor" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_ANTLERS">
+	<element name="Survivor" type="Racial Trait" source="Hummblewood" id="ID_RACIAL_TRAIT_SURVIVOR">
 		<description>
 			<p>You have proficiency
 in the Survival skill.</p>
