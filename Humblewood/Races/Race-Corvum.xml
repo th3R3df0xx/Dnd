@@ -1,1 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<info>
+		<name>Raptor</name>
+		<description></description>
+		<author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.0.1">
+			<file name="Race-Raptor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Raptor.xml" />
+		</update>
+	</info>
 
+
+
+	<element name="Raptor" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_RAPTOR">
+		<description>
+			<p>Corvums are a crow-like race with dark feathers and sharp
+minds. Their reputation in birdfolk society is nothing short
+of villainous, and they are regularly cast as the antagonists of
+any given situation. It’s hard to say whether the corvums are
+distrusted because they behave the way they do, or if they
+behave the way they do because they are distrusted.
+For Personal Gain
+It is widely believed that corvums only look out for themselves.
+Sometimes this presents as flexible morals, and at other
+times it simply means they follow a personal code instead of
+subscribing to general law. Either way, corvums are a crafty
+race and they tend to get what they want, one way or another.
+Corvums are typically found in positions with a modicum
+of power, such as advisors or minor officials. The stigma they
+face usually prevents them from attaining too prominent a
+position in birdfolk society, but corvums are adept at working
+behind the scenes, spreading their influence subtly and to
+great effect.
+Too Smart
+Corvums are commonly accepted, sometimes begrudgingly,
+to be among the smartest of birdfolk. Keen observers,
+they trade in information the way others trade goods. They
+are hungry for knowledge and leverage it to further their goals
+whenever possible. Their undeniable skill in matters of logistics
+and planning make them valuable to councils and powerful
+individuals alike.
+			</p>
+			
+			<h4>RAPTOR TRAITS</h4>
+			<p>Your Raptor character has certain characteristics in common with all other Raptor.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong>
+				Your Intelligence score
+increases by 2.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Age.</em>
+				</strong>
+				Corvums reach adulthood at around 18 years.
+They live slightly shorter lives than other birdfolk,
+approximately 70 years.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Alignment.</em>
+				</strong>
+				Shrewd and capable, corvums prefer moral
+flexibility and are more likely to be neutral than either good
+or evil. Nonetheless, corvums see the benefit of rules, even if
+many attempt to turn them to their own advantage. Because of
+this they favor lawful alignments.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong>
+				Corvums cut imposing figures, standing between 4
+and a half and 5 and a half feet tall, encompassing a variety
+of different builds. They weigh around 100 pounds. Your size
+is Medium.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong>
+				Your base walking speed is 30 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Glide.</em>
+				</strong>
+				Using your feathered arms, you can slow your
+fall, and glide short distances. When falling you can use your
+reaction to spread your arms, stiffen your wing feathers, and
+slow your descent. While doing so, you continue to fall gently
+at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may
+fly up to your movement speed in one direction you choose,
+although you cannot choose to move upwards, landing in
+the space you finish your movement. You cannot glide while
+carrying heavy weapons or wielding a shield (though you may
+drop any held items as part of your reaction to spread your
+arms). You cannot glide while wearing heavy armor, or if you
+are encumbered.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Talons</em>
+				</strong>
+				Your sharp claws aid you in unarmed combat and
+while climbing. Your damage for an unarmed strike is 1d4
+piercing damage. Additionally, you have advantage on Strength
+(Athletics) checks made to climb any surface your talons could
+reasonably grip.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Learned.</em>
+				</strong>
+				You gain proficiency in one of the following
+skills: Arcana, History, Nature, or Religion.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Appraising Eye.</em>
+				</strong>
+				Your accuracy allows you to treat
+three-quarters cover as half cover and half cover as no cover.
+			</p>
+			
+			<p class="indent">
+				<strong>
+					<em>Subrace.</em>
+				</strong>
+				There are two main subraces of raptor:
+mistral and maran. Choose one of these subraces.</p>
+
+		</description>
+		
+		<rules>
+			<stat name="intelligence" value="2"  />
+			<stat name="innate speed" value="30" bonus="base" />
+		<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TALONS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LEARNED" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING" />
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Glide" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_GLIDE">
+		<description>
+			<p>Using your feathered arms, you can slow your
+fall, and glide short distances. When falling you can use your
+reaction to spread your arms, stiffen your wing feathers, and
+slow your descent. While doing so, you continue to fall gently
+at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may
+fly up to your movement speed in one direction you choose,
+although you cannot choose to move upwards, landing in
+the space you finish your movement. You cannot glide while
+carrying heavy weapons or wielding a shield (though you may
+drop any held items as part of your reaction to spread your
+arms). You cannot glide while wearing heavy armor, or if you
+are encumbered.</p>
+		</description>
+		<sheet>
+			<description>Using your feathered arms, you can slow your
+fall, and glide short distances. When falling you can use your
+reaction to spread your arms, stiffen your wing feathers, and
+slow your descent. While doing so, you continue to fall gently
+at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may
+fly up to your movement speed in one direction you choose,
+although you cannot choose to move upwards, landing in
+the space you finish your movement. You cannot glide while
+carrying heavy weapons or wielding a shield (though you may
+drop any held items as part of your reaction to spread your
+arms). You cannot glide while wearing heavy armor, or if you
+are encumbered.</description>
+		</sheet>
+	
+	</element>
+	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+		<description>
+			<p>
+				Your sharp claws aid you in unarmed combat and
+while climbing. Your damage for an unarmed strike is 1d4
+piercing damage. Additionally, you have advantage on Strength
+(Athletics) checks made to climb any surface your talons could
+reasonably grip.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				Your sharp claws aid you in unarmed combat and
+while climbing. Your damage for an unarmed strike is 1d4
+piercing damage. Additionally, you have advantage on Strength
+(Athletics) checks made to climb any surface your talons could
+reasonably grip.
+			</p>
+		</description>
+		</sheet>
+	</element>
+	<element name="Learned" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_LEARNED">
+		<description>
+			<p>
+				You have proficiency in the Perception skill.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				You have proficiency in the Perception skill.
+			</p>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+		</sheet>
+	</element>
+	<element name="woodland Hunter" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER">
+		<description>
+			<p>
+				Your accuracy allows you to treat
+three-quarters cover as half cover and half cover as no cover.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				Your accuracy allows you to treat
+three-quarters cover as half cover and half cover as no cover.
+			</p>
+		</description>
+		
+		</sheet>
+	</element>
+    <element name="Hunter’s Training" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING">
+		<description>
+			<p>
+				You have proficiency with the longbow,
+short bow, and spear. Additionally, your familiarity
+with the longbow means that it is not considered a heavy
+weapon for you.
+			</p>
+		</description>
+	<sheet>
+		<description>
+			<p>
+				You have proficiency with the longbow,
+short bow, and spear. Additionally, your familiarity
+with the longbow means that it is not considered a heavy
+weapon for you.
+			</p>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			
+		</rules>
+		</sheet>
+	</element>
+	<element name="Raptor Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE">
+		<description>
+			<p>There are two main subraces of raptor:
+mistral and maran. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Raptor Subrace" supports="Raptor" />
+		</rules>
+	</element>
+	<element name="Maran Raptor" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_MARAN_RAPTOR">
+		<supports>Raptor</supports>
+		<description>
+			<p>
+				As a maran raptor, you are as at home in the
+water as you are in the trees. You also have a wealth of
+patience, acting only when it best suits your goals.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong>
+			Your Intelligence score increases by 1.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Swimmer</em>
+				</strong>
+				You have a swimming speed of 25 feet.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Patient.</em>
+				</strong>
+				When you react with a readied action,
+you have advantage on the first attack roll, skill
+check, or ability check you make as a part of
+that action.</p>
+            
+		</description>
+	
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIMMER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PATIENT" />
+          		</rules>
+	</element>
+	<element name="Swimmer" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIMMER">
+		<description>
+			<p>
+				You have a swimming speed of 25 feet.
+			</p>
+		</description><sheet>
+		<description>You have a swimming speed of 25 feet..</description>
+
+		</sheet>
+		</element>
+	<element name="Patient" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+		<description>
+			<p>When you react with a readied action,
+you have advantage on the first attack roll, skill
+check, or ability check you make as a part of
+that action.</p>
+		</description>
+		<sheet>
+			<description>When you react with a readied action,
+you have advantage on the first attack roll, skill
+check, or ability check you make as a part of
+that action.</description>
+		</sheet>
+		
+	</element>
+	<element name="Mistral Raptor" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_MISTRAL_RAPTOR">
+		<supports>Raptor</supports>
+		<description>
+			<p>
+				As a mistral raptor, you are most at home
+far from the ground. You can range for miles
+in the Wood without ever setting talon to
+soil, moving more confidently through the
+branches than some move on flat ground.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong>
+				Your Wisdom score increases by 1.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Agile</em>
+				</strong>
+				You have proficiency in the
+Acrobatics skill.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Aerial Defense</em>
+				</strong>
+				Creatures that
+attack you while you are falling, gliding,
+or jumping have disadvantage on their
+attack roll.</p>
+		</description>
+		<sheet display="false" />
+				<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AERIAL_DEFENSE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AGILE" />
+		</rules>
+	</element>
+	<element name="Aerial Defense." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_AERIAL_DEFENSE">
+		<description>
+			<p>
+				Creatures that
+attack you while you are falling, gliding,
+or jumping have disadvantage on their
+attack roll.
+			</p>
+		</description>
+		<sheet display="false">
+			<description>
+				Creatures that
+attack you while you are falling, gliding,
+or jumping have disadvantage on their
+attack roll.
+			</description>
+          
+		</sheet>
+	</element>
+	<element name="Agile" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_AGILE">
+		<description>
+			<p>You have proficiency
+in the Acrobatics skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency
+in the Acrobatics skill.</description>
+<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+		</rules>
+		</sheet>
+			</element>
+</elements>
