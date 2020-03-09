@@ -265,14 +265,15 @@ target as a bonus action.</p>
 		<rules>
 			<stat name="constitution" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPOSING" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STANDING_LEAP" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAWLER" />
            
 		</rules>
 	</element>
 	<element name="Imposing" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_IMPOSING">
 		<description>
-			<p>
-				Your base walking speed increases to 35 feet.
+			<p>You have proficiency in the Intimidation
+skill.
+				
 			</p>
 		</description>
 		<description>You have proficiency
@@ -328,8 +329,8 @@ in the Survival skill.</p>
 		<sheet display="false" />
 				<rules>
 			<stat name="dexterity" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROBUST_BUILD" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANTLERS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIFT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SURVIVOR" />
 		</rules>
 	</element>
 	<element name="Swift." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIFT">
