@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 <info>
-		<name>Raptor</name>
+		<name>Corvums</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.1">
-			<file name="Race-Raptor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Raptor.xml" />
+			<file name="Race-Corvums.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Corvums.xml" />
 		</update>
 	</info>
 
 
 
-	<element name="Raptor" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_RAPTOR">
+	<element name="Corvums" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_CORVUMS">
 		<description>
 			<p>Corvums are a crow-like race with dark feathers and sharp
 minds. Their reputation in birdfolk society is nothing short
@@ -41,8 +41,8 @@ and planning make them valuable to councils and powerful
 individuals alike.
 			</p>
 			
-			<h4>RAPTOR TRAITS</h4>
-			<p>Your Raptor character has certain characteristics in common with all other Raptor.</p>
+			<h4>CORVUMS TRAITS</h4>
+			<p>Your Corvums character has certain characteristics in common with all other Corvums.</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
@@ -121,16 +121,20 @@ skills: Arcana, History, Nature, or Religion.
 				<strong>
 					<em>Appraising Eye.</em>
 				</strong>
-				Your accuracy allows you to treat
-three-quarters cover as half cover and half cover as no cover.
+			You have an almost supernatural ability to
+appraise objects. By spending an action examining any object,
+you can determine any magical properties the item has, how
+they might be used or activated, as well as a fair estimation of
+market price. Using this skill strains the eyes, and you must
+complete a long or short rest before you can use it again.
 			</p>
 			
 			<p class="indent">
 				<strong>
 					<em>Subrace.</em>
 				</strong>
-				There are two main subraces of raptor:
-mistral and maran. Choose one of these subraces.</p>
+			There are two main subraces of corvum:
+dusk and kindled. Choose one of these subraces.</p>
 
 		</description>
 		
@@ -142,9 +146,8 @@ mistral and maran. Choose one of these subraces.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TALONS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LEARNED" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING" />
-		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_APPRAISING_EYE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CORVUMS_SUBRACE" />
 		</rules>
 	</element>
 	<element name="Glide" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_GLIDE">
@@ -178,7 +181,7 @@ are encumbered.</description>
 		</sheet>
 	
 	</element>
-	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_TALONS">
 		<description>
 			<p>
 				Your sharp claws aid you in unarmed combat and
@@ -203,175 +206,159 @@ reasonably grip.
 	<element name="Learned" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_LEARNED">
 		<description>
 			<p>
-				You have proficiency in the Perception skill.
+				You gain proficiency in one of the following
+skills: Arcana, History, Nature, or Religion.
 			</p>
 		</description>
-	<sheet>
-		<description>
-			<p>
-				You have proficiency in the Perception skill.
-			</p>
-		</description>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		<sheet display="false" />
+	
+			<rules>
+			<select type="Proficiency" name="Learned" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" />
 		</rules>
-		</sheet>
 	</element>
-	<element name="woodland Hunter" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER">
+	<element name="Appraising Eye" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_APPRAISING_EYE">
 		<description>
 			<p>
-				Your accuracy allows you to treat
-three-quarters cover as half cover and half cover as no cover.
+			You have an almost supernatural ability to
+appraise objects. By spending an action examining any object,
+you can determine any magical properties the item has, how
+they might be used or activated, as well as a fair estimation of
+market price. Using this skill strains the eyes, and you must
+complete a long or short rest before you can use it again.
 			</p>
 		</description>
 	<sheet>
 		<description>
 			<p>
-				Your accuracy allows you to treat
-three-quarters cover as half cover and half cover as no cover.
+				You have an almost supernatural ability to
+appraise objects. By spending an action examining any object,
+you can determine any magical properties the item has, how
+they might be used or activated, as well as a fair estimation of
+market price. Using this skill strains the eyes, and you must
+complete a long or short rest before you can use it again.
 			</p>
 		</description>
 		
 		</sheet>
 	</element>
-    <element name="Hunter’s Training" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_HUNTERS_TRAINING">
+   
+	<element name="Corvums Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_CORVUMS_SUBRACE">
 		<description>
-			<p>
-				You have proficiency with the longbow,
-short bow, and spear. Additionally, your familiarity
-with the longbow means that it is not considered a heavy
-weapon for you.
-			</p>
-		</description>
-	<sheet>
-		<description>
-			<p>
-				You have proficiency with the longbow,
-short bow, and spear. Additionally, your familiarity
-with the longbow means that it is not considered a heavy
-weapon for you.
-			</p>
-		</description>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
-			
-		</rules>
-		</sheet>
-	</element>
-	<element name="Raptor Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE">
-		<description>
-			<p>There are two main subraces of raptor:
-mistral and maran. Choose one of these subraces.</p>
+			<p>There are two main subraces of corvums:
+kindled and dusk. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Sub Race" name="Raptor Subrace" supports="Raptor" />
+			<select type="Sub Race" name="Corvums Subrace" supports="Corvums" />
 		</rules>
 	</element>
-	<element name="Maran Raptor" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_MARAN_RAPTOR">
-		<supports>Raptor</supports>
+	<element name="Dusk Corvums" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_DUSK_CORVUMS">
+		<supports>Corvums</supports>
 		<description>
 			<p>
-				As a maran raptor, you are as at home in the
-water as you are in the trees. You also have a wealth of
-patience, acting only when it best suits your goals.
+				As a dusk corvum, you are more at home in the bustle
+of society than in the wilds of the forest. You understand
+subtle social cues the way a hunter understands
+their prey, and you’re just as quick to capitalize on
+an advantage.
 			</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
 				</strong>
-			Your Intelligence score increases by 1.
+			Your Dexterity score increases by 1.
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Swimmer</em>
+					<em>Skulker</em>
 				</strong>
-				You have a swimming speed of 25 feet.
+			You have advantage on
+Dexterity (Stealth) checks made in dim
+light or darkness
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Patient.</em>
+					<em>	Street Smarts.</em>
 				</strong>
-				When you react with a readied action,
-you have advantage on the first attack roll, skill
-check, or ability check you make as a part of
-that action.</p>
+			 You gain proficiency
+in the Insight skill.</p>
             
 		</description>
 	
 		<rules>
-			<stat name="intelligence" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIMMER" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PATIENT" />
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKULKER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STREET_SMARTS" />
           		</rules>
 	</element>
-	<element name="Swimmer" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIMMER">
+	<element name="Skulker" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SKULKER">
 		<description>
 			<p>
-				You have a swimming speed of 25 feet.
+				You have a swimming speed of 30 feet.
 			</p>
 		</description><sheet>
-		<description>You have a swimming speed of 25 feet..</description>
+		<description>You have a swimming speed of 30 feet..</description>
 
 		</sheet>
 		</element>
-	<element name="Patient" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+	<element name="Street Smarts" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STREET_SMARTS">
 		<description>
-			<p>When you react with a readied action,
-you have advantage on the first attack roll, skill
-check, or ability check you make as a part of
-that action.</p>
+			<p>You gain proficiency
+in the Insight skill.</p>
 		</description>
-		<sheet>
-			<description>When you react with a readied action,
-you have advantage on the first attack roll, skill
-check, or ability check you make as a part of
-that action.</description>
+	<sheet display="false">
+			<description>You have proficiency in the Insight skill.</description>
 		</sheet>
-		
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
 	</element>
-	<element name="Mistral Raptor" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_MISTRAL_RAPTOR">
-		<supports>Raptor</supports>
+	<element name="Kindled Corvums" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_KINDLED_CORVUMS">
+		<supports>Corvums</supports>
 		<description>
 			<p>
-				As a mistral raptor, you are most at home
-far from the ground. You can range for miles
-in the Wood without ever setting talon to
-soil, moving more confidently through the
-branches than some move on flat ground.
+			As a kindled corvum, you know implicitly that you are
+the smartest in the room. Your ability to utilize your knowledge
+to your advantage, along with your deep understanding
+of others motivations, makes you a formidable opponent.
 			</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
 				</strong>
-				Your Wisdom score increases by 1.
+				Your Charisma score increases by 1.
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Agile</em>
+					<em>Convincing</em>
 				</strong>
-				You have proficiency in the
-Acrobatics skill.
+			Kindled corvums have a way with words,
+and are accomplished at saying what someone wants or
+needs to hear. You have proficiency in either the Deception
+or Persuasion skill. Additionally, you have advantage on
+all Charisma checks made to convince someone of your
+exceptional knowledge on any topic related to the skill you
+selected with your learned trait (Arcana, History, Nature,
+or Religion).
 			</p>
 			<p class="indent">
 				<strong>
-					<em>Aerial Defense</em>
+					<em>Sharp Mind</em>
 				</strong>
-				Creatures that
-attack you while you are falling, gliding,
-or jumping have disadvantage on their
-attack roll.</p>
+				You learn one additional language
+of your choice, gain proficiency in a tool of your
+choice, and are able to accurately recall with
+perfect clarity anything you have seen or
+heard within the past month.</p>
 		</description>
 		<sheet display="false" />
 				<rules>
-			<stat name="wisdom" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AERIAL_DEFENSE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AGILE" />
+			<stat name="charisma" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHARP_MIND" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CONVINCING" />
 		</rules>
 	</element>
-	<element name="Aerial Defense." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_AERIAL_DEFENSE">
+	<element name="Sharp Mind." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SHARP_MIND">
 		<description>
 			<p>
 				Creatures that
@@ -380,27 +367,36 @@ or jumping have disadvantage on their
 attack roll.
 			</p>
 		</description>
-		<sheet display="false">
-			<description>
-				Creatures that
-attack you while you are falling, gliding,
-or jumping have disadvantage on their
-attack roll.
-			</description>
-          
-		</sheet>
+		<sheet>
+    <description>
+    You are able to accurately recall with
+perfect clarity anything you have seen or
+heard within the past month.
+    </description>
+    </sheet>
+		<rules>
+			<select type="Language" name="Language (Corvum)" supports="Standard||Exotic" />
+    	<select type="Proficiency" name="Sharp Mind" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
+
+		</rules>
 	</element>
-	<element name="Agile" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_AGILE">
+	<element name="Convincing" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_CONVINCING">
 		<description>
-			<p>You have proficiency
-in the Acrobatics skill.</p>
+			<p>Kindled corvums have a way with words,
+and are accomplished at saying what someone wants or
+needs to hear. You have proficiency in either the Deception
+or Persuasion skill. Additionally, you have advantage on
+all Charisma checks made to convince someone of your
+exceptional knowledge on any topic related to the skill you
+selected with your learned trait (Arcana, History, Nature,
+or Religion).</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>You have proficiency
 in the Acrobatics skill.</description>
-<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+
+		</sheet><rules>
+		<select type="Proficiency" name="Convincing" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_DECEPTION" />
 		</rules>
-		</sheet>
 			</element>
 </elements>
