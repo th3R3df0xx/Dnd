@@ -190,7 +190,7 @@ are encumbered.</description>
 		</sheet>
 	
 	</element>
-	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PRACTICAL">
+	<element name="Talons" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_TALONS">
 		<description>
 			<p>
 				Your sharp claws aid you in unarmed combat and
@@ -329,7 +329,7 @@ that action.</p>
 
 		</sheet>
 		</element>
-	<element name="Patient" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STANDING_LEAP">
+	<element name="Patient" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PATIENT">
 		<description>
 			<p>When you react with a readied action,
 you have advantage on the first attack roll, skill
