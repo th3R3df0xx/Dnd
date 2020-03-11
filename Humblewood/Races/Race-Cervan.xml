@@ -190,7 +190,7 @@ long rest
 
 		</description>
 		<sheet display="false"/>
-			<sheet display="false"/>
+			
 		<rules>
 			<stat name="Constitution" value="2"  />
 			<stat name="innate speed" value="30" bonus="base" />
