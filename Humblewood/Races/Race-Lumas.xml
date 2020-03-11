@@ -140,7 +140,7 @@ completed a long rest.
 				<strong>
 					<em>Subrace.</em>
 				</strong>
-				There are two main subraces of luma: sable and
+				There are two main subraces of lumas: sable and
 sera. Choose one of these subraces.</p>
 
 		</description>
@@ -148,13 +148,13 @@ sera. Choose one of these subraces.</p>
 		<rules>
 			<stat name="charisma" value="2"  />
 			<stat name="innate speed" value="25" bonus="base" />
-my5			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WING_FLAP" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TOUCHED" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FATED" />
-		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUMA_SUBRACE" />
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUMAS_SUBRACE" />
 		</rules>
 	</element>
 	<element name="Glide" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_GLIDE">
@@ -252,21 +252,21 @@ completed a long rest.
 		
 		</sheet>
 	</element>
-	<element name="Luma Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_LUMA_SUBRACE">
+	<element name="Lumas Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_LUMAS_SUBRACE">
 		<description>
-			<p>There are two main subraces of luma:
+			<p>There are two main subraces of lumas:
 sera and sable. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Sub Race" name="Luma Subrace" supports="Luma" />
+			<select type="Sub Race" name="Lumas Subrace" supports="Lumas" />
 		</rules>
 	</element>
-	<element name="Sable Luma" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_SABLE_LUMA">
-		<supports>Luma</supports>
+	<element name="Sable Lumas" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_SABLE_LUMAS">
+		<supports>Lumas</supports>
 		<description>
 			<p>
-				As a sable luma, you are often found on the fringes of
+				As a sable lumas, you are often found on the fringes of
 social situations. While you are overlooked by the crowd, your
 gifts are undeniable. You are destined for greatness.
 			</p>
@@ -332,11 +332,11 @@ poison and resistance against poison damage.</description>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 		</rules>
 	</element>
-	<element name="Sera Luma" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_SERA_LUMA">
-		<supports>Luma</supports>
+	<element name="Sera Lumas" type="Sub Race" source="Humblewood" id="ID_SUB_RACE_SERA_LUMAS">
+		<supports>Lumas</supports>
 		<description>
 			<p>
-				As a sera luma, you are revered and celebrated by those
+				As a sera lumas, you are revered and celebrated by those
 around you. You have an almost unnatural beauty and grace,
 inspiring admiration in some and jealousy in others.
 			</p>
