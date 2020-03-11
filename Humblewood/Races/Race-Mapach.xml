@@ -299,7 +299,7 @@ together is up to the GM.
 </description>
  </sheet>
 	       <rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_TINKER_TOOL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
 		</rules>
     </element>
 </elements>
