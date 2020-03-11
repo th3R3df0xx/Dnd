@@ -149,7 +149,7 @@ mistral and maran. Choose one of these subraces.</p>
 		<rules>
 			<stat name="dexterity" value="2"  />
 			<stat name="innate speed" value="25" bonus="base" />
-my5			<grant type="Size" id="ID_SIZE_SMALL" />
+		<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TALONS" />
@@ -224,10 +224,11 @@ reasonably grip.
 				You have proficiency in the Perception skill.
 			</p>
 		</description>
+		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 		</rules>
-		</sheet>
+		
 	</element>
 	<element name="woodland Hunter" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_WOODLAND_HUNTER">
 		<description>
@@ -264,13 +265,14 @@ with the longbow means that it is not considered a heavy
 weapon for you.
 			</p>
 		</description>
+		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
 			
 		</rules>
-		</sheet>
+		
 	</element>
 	<element name="Raptor Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_RAPTOR_SUBRACE">
 		<description>
@@ -392,7 +394,7 @@ or jumping have disadvantage on their
 attack roll.
 			</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>
 				Creatures that
 attack you while you are falling, gliding,
@@ -408,11 +410,10 @@ attack roll.
 in the Acrobatics skill.</p>
 		</description>
 		<sheet display="false">
-			<description>You have proficiency
-in the Acrobatics skill.</description>
+			
 <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
 		</rules>
-		</sheet>
+		
 			</element>
 </elements>
