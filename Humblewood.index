@@ -4,7 +4,7 @@
 		<name>Humblewood</name>
 		<description>The content from the Humblewood Handbook.</description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
 		</update>
 	</info>
@@ -14,7 +14,8 @@
 		<file name="Race-Cervan.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Cervan.xml" />
 		<file name="Race-Hedge.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Hedge.xml" />
 		<file name="Race-Jerbeen.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Jerbeen.xml" />
-		<file name="Race-Lumas.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Lumas.xml" />
+		<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
+		<file name="Race-Vulpin.xml" url="https://raw.githubuserconten.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Vulpin.xml" />
 		<file name="Race-Mapach.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Mapach.xml" />
 		
 	</files>
