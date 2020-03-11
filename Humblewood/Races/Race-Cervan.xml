@@ -213,7 +213,7 @@ regain hit points equal to 1d12 + your Constitution Modifier.
 You can’t use this feature again until you have completed a
 long rest.</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>All cervans possess a great tenacity and
 will to survive, which allows them to bounce back from even
 the most devastating blows. If an attack deals over half of
@@ -407,7 +407,7 @@ Strength saving throw against a DC of your Proficiency Bonus
 + 8 + your Strength Modifier. On failure, the target is pushed
 10 feet away from you into a space of your choice.</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>You have a set of large, strong antlers that
 can be used to make devastating charge attacks. You
 can use your unarmed strike to gore opponents, dealing
