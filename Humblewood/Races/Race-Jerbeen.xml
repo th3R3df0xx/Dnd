@@ -4,7 +4,7 @@
 		<name>Jerbeen</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Race-Jerbeen.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Jerbeen.xml" />
 		</update>
 	</info>
