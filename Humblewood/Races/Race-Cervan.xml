@@ -189,7 +189,7 @@ long rest
 			</p>
 
 		</description>
-		
+		<sheet display="false"/>
 		<rules>
 			<stat name="Constitution" value="2"  />
 			<stat name="innate speed" value="30" bonus="base" />
@@ -287,7 +287,7 @@ base high jump is 15 feet, with or without a running start.
 are rolled with disadvantage.
 			</p>
 		</description>
-	
+	<sheet display="false"/>
 		<rules>
 			<stat name="dexterity" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIFT" />
