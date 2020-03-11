@@ -151,11 +151,11 @@ smith’s tools.
 huden. Choose one of these subraces.</p>
 
 		</description>
-		
+		<sheet display="false">
 		<rules>
 			<stat name="wisdom" value="2"  />
 			<stat name="innate speed" value="30" bonus="base" />
-my5			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GLIDE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WING_FLAP" />
@@ -308,7 +308,7 @@ rolled to their next ability check, attack roll, or saving throw.
 				You have proficiency in the Insight skill.</p>
             
 		</description>
-	
+	<sheet display="false"/>
 		<rules>
 			<stat name="charisma" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INSPIRING" />
@@ -335,9 +335,9 @@ rolled to their next ability check, attack roll, or saving throw.</description>
 		<description>
 			<p>You have proficiency in the Insight skill.</p>
 		</description>
-		<sheet display="false">
+		<sheet display="false"/>
 			<description>You have proficiency in the Insight skill.</description>
-		</sheet>
+		
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 		</rules>
@@ -424,7 +424,7 @@ as well as hear vibrations that happened around them
 			<p>You have proficiency
 in the Nature skill.</p>
 		</description>
-		<sheet display="false">
+		<sheet display="false"/>
 			<description>You have proficiency
 in the Nature skill.</description>
 <rules>
