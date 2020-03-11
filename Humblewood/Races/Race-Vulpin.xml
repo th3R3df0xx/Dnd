@@ -4,7 +4,7 @@
 		<name>Vulpin</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Race-Vulpin.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Vulpin.xml" />
 		</update>
 	</info>
