@@ -23,21 +23,6 @@
 		<file name="Race-Corvum.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Corvum.xml" />
 		<file name="Race-Gallus.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Gallus" />
 
-		<!-- classes -->
-		<file name="Class-Bard-Road.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/Class-Bard-Road.xml" />
-		<file name="Class-Cleric-Community.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/Class-Cleric-Community.xml" />
-		<file name="Class-Cleric-Night.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/Class-Cleric-Night.xml" />
-		<file name="Class-Fighter-Scoflaw.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/Class-Fighter-Scoflaw.xml" />
-	
-
-		<!-- backgrounds -->		
-		<file name="Background-Bandit-Defector.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Bandit-Defector.xml" />
-		<file name="Background-Grounded.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Grounded.xml" />
-		<file name="Background-Wind-Touched.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Wind-Touched.xml" />
-
-		<!-- misc -->
-		<file name="Magic-Item.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Magic-Item.xml" />
-		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Feats.xml" />
 		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
 		</files>
 </index>
