@@ -141,7 +141,7 @@ can’t discern color in darkness, only shades of gray.
 and stout. Choose one of these subraces.</p>
 
 		</description>
-		
+		<sheet display="false" />
 		<rules>
 			<stat name="strength" value="2"  />
 			<stat name="innate speed" value="30" bonus="base" />
@@ -170,7 +170,7 @@ arms). You cannot glide while wearing heavy armor, or if you
 are encumbered.</p>
 		</description>
 		<sheet>
-			<description>Using your feathered arms, you can slow your
+			<description> Using your feathered arms, you can slow your
 fall, and glide short distances. When falling you can use your
 reaction to spread your arms, stiffen your wing feathers, and
 slow your descent. While doing so, you continue to fall gently
@@ -195,7 +195,7 @@ piercing damage. Additionally, you have advantage on Strength
 reasonably grip.
 			</p>
 		</description>
-	<sheet"/>
+	<sheet>
 		<description>
 			<p>
 				Your sharp claws aid you in unarmed combat and
@@ -205,6 +205,7 @@ piercing damage. Additionally, you have advantage on Strength
 reasonably grip.
 			</p>
 		</description>
+		</sheet>
 	</element>
 	<element name="Patterned feathers" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_PATTERNED_FEATHERS">
 		<description>
@@ -213,13 +214,14 @@ reasonably grip.
 (Stealth) checks when you attempt to hide in a forest.
 			</p>
 		</description>
-	<sheet"/>
+	<sheet>
 		<description>
 			<p>
 				You have advantage on Dexterity
 (Stealth) checks when you attempt to hide in a forest.
 			</p>
 		</description>
+		</sheet>
 	</element>
 	
 	<element name="Strig Subrace" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_STRIG_SUBRACE">
@@ -261,7 +263,7 @@ with your talons, you can choose to grapple that
 target as a bonus action.</p>
             
 		</description>
-	
+	<sheet display="false" />
 		<rules>
 			<stat name="constitution" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPOSING" />
@@ -276,12 +278,12 @@ skill.
 				
 			</p>
 		</description>
-		<description>You have proficiency
-in the Intimidation skill.</description>
+		<sheet display="false" />
+		
 <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 		</rules>
-		</sheet>
+		
 		</element>
 	<element name="Brawler" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_BRAWLER">
 		<description>
@@ -348,7 +350,7 @@ increases to 35 feet.
            <rules>
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
-		</sheet>
+		
 	</element>
 	<element name="Survivor" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SURVIVOR">
 		<description>
@@ -356,11 +358,10 @@ increases to 35 feet.
 in the Survival skill.</p>
 		</description>
 		<sheet display="false">
-			<description>You have proficiency
-in the Survival skill.</description>
+			
 <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 		</rules>
-		</sheet>
+		
 			</element>
 </elements>
