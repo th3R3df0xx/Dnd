@@ -320,7 +320,7 @@ on their roll. Additionally, you gain advantage on Charisma
 
 		</sheet>
 		</element>
-	<element name="Resilience" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_RESILIENCE.">
+	<element name="Resilience" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_RESILIENCE">
 		<description>
 			<p>You have advantage on saving throws against
 poison and resistance against poison damage.</p>
@@ -401,7 +401,7 @@ any somatic components to cast.
 			<p>You have proficiency
 in the Performance skill.</p>
 		</description>
-	
+	<sheet display="false">
 			<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
 		</rules>
