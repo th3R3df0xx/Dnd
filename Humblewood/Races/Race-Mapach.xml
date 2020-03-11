@@ -296,7 +296,7 @@ You can also use scroungecraft to repair broken
 equipment, provided you have the materials
 on hand. Though, how long your repairs hold
 together is up to the GM.
-
+</description>
  </sheet>
 	       <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_TINKER_TOOL" />
