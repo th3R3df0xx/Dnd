@@ -295,7 +295,7 @@ on their roll. Additionally, you gain advantage on Charisma
 poison and resistance against poison damage.</p>
             
 		</description>
-	</sheet display="false"/>
+	
 		<rules>
 			<stat name="constitution" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HARD_TO_READ" />
