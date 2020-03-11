@@ -4,7 +4,7 @@
 		<name>Cervan</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Race-Cervan.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Cervan.xml" />
 		</update>
 	</info>
