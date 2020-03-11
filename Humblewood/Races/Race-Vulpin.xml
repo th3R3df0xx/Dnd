@@ -156,7 +156,7 @@
             <stat name="dexterity:save:misc" value="intelligence:modifier"/>
         </rules>
     </element>
-    <element name=" Bewitching Guile" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_VULPIN_ BEWITCHING_GUILE">
+    <element name=" Bewitching Guile" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_VULPIN_BEWITCHING_GUILE">
         <description>
             <p>
                 You can cast charm person as a 1st level
