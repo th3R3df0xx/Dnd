@@ -6,5 +6,18 @@
 			<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
 		</update>
 	</info>
-
+	<element name="Humblewood" type="Source" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD">
+		<description>
+			
+		</description>
+		<setters>
+			<set name="abbreviation">H</set>
+			<set name="https://thedeckofmany.com/</set>
+			<set name="image">https://cdn.shopify.com/s/files/1/0002/1033/7850/products/humblewoodPDF_2000x2000.png?v=1572292887</set>
+			<set name="author" abbreviation="DOM" url="https://thedeckofmany.com/</set>
+			<set name="third-party">true</set>
+			<set name="release">20190411</set>
+			
+		</setters>
+	</element>
 </elements>
