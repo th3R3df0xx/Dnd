@@ -401,7 +401,7 @@ any somatic components to cast.
 			<p>You have proficiency
 in the Performance skill.</p>
 		</description>
-		<sheet display="false">
+	
 			<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
 		</rules>
