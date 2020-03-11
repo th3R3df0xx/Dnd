@@ -380,22 +380,19 @@ Strength saving throw against a DC of your Proficiency Bonus
 		</rules>
 	</element>
 	<element name="Robust Build." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_ROBUST_BUILD">
-		<description>
-			<p>
-				Your carrying capacity is doubled, as is the
-weight you can push, drag, or lift.
-			</p>
-		</description>
-		<sheet display="false">
-			<description>
-				Your carrying capacity is doubled, as is the
-weight you can push, drag, or lift.
-			</description>
-            <rules>
+  
+    <description>
+      <p>Your carrying capacity is doubled, as is the
+weight you can push, drag, or lift.</p>
+    </description>
+    <sheet>
+      <description>Your carrying capacity is doubled, as is the
+weight you can push, drag, or lift.</description>
+    </sheet>
+    <rules>
       <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
     </rules>
-		</sheet>
-	</element>
+  </element>
 	<element name="Antlers" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_ANTLERS">
 		<description>
 			<p>You have a set of large, strong antlers that
@@ -425,4 +422,3 @@ Strength saving throw against a DC of your Proficiency Bonus
 		</sheet>
 			</element>
 </elements>
-
