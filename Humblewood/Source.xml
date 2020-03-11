@@ -1,1 +1,10 @@
 
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
+		</update>
+	</info>
+
+</elements>
