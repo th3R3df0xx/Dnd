@@ -9,7 +9,6 @@
 		</update>
 	</info>
 	<files>	
-		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
 		
 		<!-- races -->
 		<file name="Race-Cervan" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Cervan.xml" />
