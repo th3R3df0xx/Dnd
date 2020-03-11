@@ -298,5 +298,8 @@ on hand. Though, how long your repairs hold
 together is up to the GM.
 
  </sheet>
+	       <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_TINKER_TOOL" />
+		</rules>
     </element>
 </elements>
