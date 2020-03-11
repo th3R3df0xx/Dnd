@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 <info>
-		<name>Luma</name>
+		<name>Lumas</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.2">
-			<file name="Race-Luma.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Luma.xml" />
+			<file name="Race-Luma.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Lumas.xml" />
 		</update>
 	</info>
 
 
 
-	<element name="Luma" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_LUMA">
+	<element name="Lumas" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_LUMAS">
 		<description>
 			<p>Lumas are a race of polar opposites when it comes to
 their role in perch society. They are as often shunned for their
@@ -52,8 +52,8 @@ the company of those who understand them rather than
 those who pass judgement.
 			</p>
 			
-			<h4>LUMA TRAITS</h4>
-			<p>Your Luma character has certain characteristics in common with all other Luma.</p>
+			<h4>LUMAS TRAITS</h4>
+			<p>Your Luma character has certain characteristics in common with all other Lumas.</p>
 			<p class="indent">
 				<strong>
 					<em>Ability Score Increase.</em>
@@ -222,10 +222,11 @@ Charisma is your spellcasting ability for this cantrip.
 Charisma is your spellcasting ability for this cantrip.
 			</p>
 		</description>
+		</sheet>
 		<rules>
 			<select type="Spell" name="sorcerer Cantrip (Touched)" supports="Sorcerer&amp;&amp;0" />
 		</rules>
-		</sheet>
+		
 	</element>
 	<element name="Fated" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_FATED">
 		<description>
@@ -294,7 +295,7 @@ on their roll. Additionally, you gain advantage on Charisma
 poison and resistance against poison damage.</p>
             
 		</description>
-	
+	</sheet display="false"/>
 		<rules>
 			<stat name="constitution" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HARD_TO_READ" />
@@ -406,6 +407,6 @@ in the Performance skill.</description>
 <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
 		</rules>
-		</sheet>
+		
 			</element>
 </elements>
