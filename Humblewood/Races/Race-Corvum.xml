@@ -392,11 +392,14 @@ selected with your learned trait (Arcana, History, Nature,
 or Religion).</p>
 		</description>
 		<sheet>
-			<description>You have proficiency
-in the Acrobatics skill.</description>
+			<description> you have advantage on
+all Charisma checks made to convince someone of your
+exceptional knowledge on any topic related to the skill you
+selected with your learned trait (Arcana, History, Nature,
+or Religion).</description>
 
 		</sheet><rules>
-		<select type="Proficiency" name="Convincing" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_DECEPTION" />
+		<select type="Proficiency" name="Convincing" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERSUASION" />
 		</rules>
 			</element>
 </elements>
