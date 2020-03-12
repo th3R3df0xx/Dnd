@@ -4,7 +4,7 @@
 		<name>Lumas</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.2">
+		<update version="1.0.2">
 			<file name="Race-Lumas.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Lumas.xml" />
 		</update>
 	</info>
@@ -215,7 +215,7 @@ a regular jump, but not while gliding.
 Charisma is your spellcasting ability for this cantrip.
 			</p>
 		</description>
-	<sheet>
+	<sheet display="false">
 		<description>
 			<p>
 				You know one cantrip from the sorcerer spell list.
@@ -384,7 +384,7 @@ any somatic components to cast. Charisma is
 your spellcasting ability for this spell.
 			</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>
 			You may cast the charm person spell
 once per long rest. This spell does not require
@@ -395,13 +395,17 @@ any somatic components to cast.
         <rule>   <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
         </rule>
 	</element>
-			<element name="Center of attention." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_CENTER_OF_ATTENTION">
+			<element name="Center of attention" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_CENTER_OF_ATTENTION">
 
         <description>
 			<p>You have proficiency
 in the Performance skill.</p>
 		</description>
-	
+			<sheet display="false">	
+	<description>
+			You have proficiency in the Performance skill.
+		</description>
+				</sheet>
 			<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
 		</rules>
