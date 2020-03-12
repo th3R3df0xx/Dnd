@@ -4,7 +4,7 @@
 		<name>Humblewood</name>
 		<description>The content from the Humblewood Handbook.</description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
 		</update>
 	</info>
@@ -18,6 +18,6 @@
 		<file name="Race-Mapach.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Mapach.xml" />
 		<file name="Race-Corvum.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Corvum.xml" />
 		<file name="Race-Gallus.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Gallus.xml" />
-
+		<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />	
 	</files>
 </index>
