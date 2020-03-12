@@ -350,7 +350,7 @@ in the Survival skill.</p>
 			<p>You have proficiency
 in the Survival skill.</p>
 		</description>
-		<sheet display="false">
+		
 			
 <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
