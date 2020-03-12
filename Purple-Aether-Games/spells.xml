@@ -5,7 +5,7 @@
     <name>Spells</name>
     <description>Spells from the Elmental spellbook.</description>
     <author url="https://www.dmsguild.com/product/290379/The-Elemental-Spellbook-80-Spells-of-Ice-Fire-and-Lightning">Purple Aether Games</author>
-		<update version="0.1.2">
+		<update version="0.1.3">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/The-Elemental-Spellbook/Spells.xml" />
 		</update>
 	</info>
