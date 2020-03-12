@@ -345,6 +345,7 @@ in the Survival skill.</p>
 		<rules>
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
+		</element>
 	<element name="Survivor" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SURVIVOR">
 		<description>
 			<p>You have proficiency
