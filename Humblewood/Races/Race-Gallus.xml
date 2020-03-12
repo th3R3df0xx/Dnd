@@ -4,7 +4,7 @@
 		<name>Gallus</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="Race-Gallus.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Gallus.xml" />
 		</update>
 	</info>
@@ -151,8 +151,7 @@ smith’s tools.
 huden. Choose one of these subraces.</p>
 
 		</description>
-		<sheet display="false">
-		<rules>
+				<rules>
 			<stat name="wisdom" value="2"  />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
