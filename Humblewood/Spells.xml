@@ -2,17 +2,13 @@
 <elements>
 <info>
 		<name>Humblewood spells</name>
-		<description></description>
+		
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.3">
 			<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
 		</update>
 	</info>
 
-
-
-		
-	
 	<element name="AMBUSH PREY" type="Spell" source="Humblewood" id="ID_H_SPELL_AMBUSH_PREY">
 		<supports>Ranger</supports>
 		<description>
