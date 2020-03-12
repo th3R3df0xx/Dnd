@@ -417,7 +417,7 @@ as well as hear vibrations that happened around them
 		</sheet>
         
 	</element>
-			<element name="One With the Wood." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_ONE_WITH_THE_WOOD">
+			<element name="One With the Wood" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_ONE_WITH_THE_WOOD">
 
         <description>
 			<p>You have proficiency
