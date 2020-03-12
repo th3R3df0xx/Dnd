@@ -2,7 +2,7 @@
 <elements>
 
 <info>
-		<update version="0.0.2">
+		<update version="0.1.2">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/The-Elemental-Spellbook/Spells.xml" />
 		</update>
 	</info>
