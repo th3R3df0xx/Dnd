@@ -342,11 +342,7 @@ in the Survival skill.</p>
 increases to 35 feet.
 			</p>
 		</description>
-		<sheet display="false">
-			<description>
-				Your base walking speed
-increases to 35 feet.
-			</description>
+		
            <rules>
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
