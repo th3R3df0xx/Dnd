@@ -335,7 +335,7 @@ in the Survival skill.</p>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SURVIVOR" />
 		</rules>
 	</element>
-	<element name="Swift." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIFT">
+	<element name="Swift" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIFT">
 		<description>
 			<p>Your base walking speed increases to 35 feet.</p>
 		</description>
