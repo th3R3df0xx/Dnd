@@ -3,7 +3,7 @@
 	<info>
 		<name>Purple-Aether-Games</name>
 		
-		<update version="0.0.1">
+		<update version="0.1.1">
 			<file name="Purple-Aether-Games.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games.index" />
 		</update>
 	</info>
