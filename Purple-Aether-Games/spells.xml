@@ -13,8 +13,8 @@
 	<element name="Agonizing Chill" type="Spell" source="The Elemental Spellbook" id="ID_ES_SPELL_AGONIZING_CHILL">
 		<supports>Wizard, Warlock, Sorcerer</supports>
 		<description>
-			<p>You afflict a creature you can see within range with a crippling cold that fills its entire body. The creature immediately takes 3d10 cold damage, then must make a Constitution saving throw or be affected by the spell for the duration. A creature that is immune to cold damage is unaffected by this spell. An affected creature's movements are slowed by the oppressive cold filling its body. Its speed is halved; it suffers a –2 penalty to its AC; it has disadvantage on attack rolls, Dexterity checks, and Dexterity saving throws; it has disadvantage on Constitution saving throws to maintain concentration on spells; it can take either an action or a bonus action on its turn, but not both; and it can't take reactions. At the end of each of the affected creature's turns, it can repeat the saving throw, ending the effect onitself on a success. On a failed save, the creature takes an additional 3d10 cold damage.</p>
-			<p class="indent">
+			<p>You afflict a creature you can see within range with a crippling cold that fills its entire body. The creature immediately takes 3d10 cold damage, then must make a Constitution saving throw or be affected by the spell for the duration. A creature that is immune to cold damage is unaffected by this spell. An affected creature's movements are slowed by the oppressive cold filling its body. Its speed is halved; it suffers a –2 penalty to its AC; it has disadvantage on attack rolls, Dexterity checks, and Dexterity saving throws; it has disadvantage on Constitution saving throws to maintain concentration on spells; it can take either an action or a bonus action on its turn, but not both; and it can't take reactions. At the end of each of the affected creature's turns, it can repeat the saving throw, ending the effect onitself on a success. On a failed save, the creature takes an additional 3d10 cold damage.
+			
 				<b>
 					<i>At Higher Levels.</i>
 				</b>
@@ -127,8 +127,8 @@
 	<element name="Comet Strike" type="Spell" source="The Elemental Spellbook" id="ID_ES_SPELL_COMET_STRIKE">
 		<supports>Wizard, Warlock, Sorcerer</supports>
 		<description>
-			<p>A 20-foot radius sphere of dirty ice plummets to the ground on a point you can see within range. Each creature in the area of impact must make a Strength saving throw. A creature which fails its save takes 4d8 bludgeoning damage and 4d6 cold damage and is knocked prone. On a successful save, a creature takes half as much damage and does not fall prone. Objects in the area are also damaged. The comet dissolves immediately after impact.</p>
-			<p class="indent">
+			<p>A 20-foot radius sphere of dirty ice plummets to the ground on a point you can see within range. Each creature in the area of impact must make a Strength saving throw. A creature which fails its save takes 4d8 bludgeoning damage and 4d6 cold damage and is knocked prone. On a successful save, a creature takes half as much damage and does not fall prone. Objects in the area are also damaged. The comet dissolves immediately after impact.
+			
 				<b>
 					<i>At Higher Levels.</i>
 				</b>
