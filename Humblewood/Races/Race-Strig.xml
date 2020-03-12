@@ -337,17 +337,14 @@ in the Survival skill.</p>
 	</element>
 	<element name="Swift." type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SWIFT">
 		<description>
-			<p>
-				Your base walking speed
-increases to 35 feet.
-			</p>
+			<p>Your base walking speed increases to 35 feet.</p>
 		</description>
-		
-           <rules>
+		<sheet display="false">
+			<description>Your speed increases to 35 feet.</description>
+		</sheet>
+		<rules>
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
-		
-	</element>
 	<element name="Survivor" type="Racial Trait" source="Humblewood" id="ID_RACIAL_TRAIT_SURVIVOR">
 		<description>
 			<p>You have proficiency
