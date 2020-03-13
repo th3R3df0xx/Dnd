@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="0.0.5">
-            <file name="source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/Source.xml" />
+            <file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/Source.xml" />
         </update>
     </info>
     <element name="The Elemental Spellbook" type="Source" source="Purple Aether Games" id="ID_JACOB_THE_ELEMENTAL_SPELLBOOK">
