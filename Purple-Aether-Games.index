@@ -8,7 +8,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/spells.xml" />
+		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/Spells.xml" />
 		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Purple-Aether-Games/Source.xml" />
 		
 
