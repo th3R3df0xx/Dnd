@@ -4,13 +4,14 @@
 		<name>Humblewood</name>
 		<description>The content from the Humblewood Handbook.</description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
 		</update>
 	</info>
 	<files>	
-		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
+		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
 		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
+		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Feats.xml" />
 		<!-- races -->
 		<file name="Race-Cervan.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Cervan.xml" />
 		<file name="Race-Hedge.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Hedge.xml" />
