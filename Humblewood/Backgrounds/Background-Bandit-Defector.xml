@@ -80,7 +80,7 @@ roll randomly.
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
-			<grant type="Proficiency" name="Musical Instrument (Bandit Defector)" supports="Musical Instrument || Gaming Set" />
+			<select type="Proficiency" name="Tools of the trade (Bandit)" supports="Musical Instrument || Gaming Set" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_BANDIT_ROUTES" />
 			<select type="List" name="d6 Bandit Specialty" optional="true">
@@ -91,7 +91,7 @@ roll randomly.
 				<item id="5">Hustler</item>
 				<item id="6"> Captain</item>
 				</select>
-				<select type="List" name="Personality Trait" number="2">
+				<select type="List" name="Personality Trait" number="1">
 				<item id="1">I am plucky and confident in my abilities, at least, that’s what I want others to think.</item>
 				<item id="2">I often crack jokes to lighten the mood.</item>
 				<item id="3">I like to keep my secrets, and those who try to pry into my life irritate me.</item>
