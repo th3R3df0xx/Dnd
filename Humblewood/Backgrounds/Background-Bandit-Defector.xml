@@ -4,7 +4,7 @@
 		<name>Bandit Defector</name>
 		<description>Bandit Defector Background</description>       
     <author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 		<file name="Background-Bandit-Defector.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Bandit-Defector.xml" />
 		</update>
 	</info>
@@ -80,7 +80,7 @@ roll randomly.
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
-			<select type="Proficiency" name="Tools of the Trade" supports="Musical Instrument , Gaming Set" />
+			<grant type="Proficiency" name="Tools of the Trade" supports="Musical Instrument , Gaming Set" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_BANDIT_ROUTES" />
 			<select type="List" name="d6 Bandit Specialty" optional="true">
