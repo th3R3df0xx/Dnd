@@ -113,7 +113,7 @@
 			<description level="8"> you can see normally in darkness, both magical and nonmagical within 120 feet.</description>
 			<description level="17"> you can see normally in darkness, both magical and nonmagical within 120 feet.
 			your eyes are able to see the truth hiding within darkness. You gain the ability to call upon the powers of your deity to grant yourself truesight within 120 feet
-of you for a number of minutes equal to your Wisdom modifier (a minimum of 1 minute). Your truesight only functions while in conditions of magical or nonmagical darkness. Once
+of you for ({{wisdom:modifier}}). Your truesight only functions while in conditions of magical or nonmagical darkness. Once
 you have used this feature, you cannot use it again until you have completed a long rest.</description>
     </sheet>
     <rules>
@@ -142,14 +142,10 @@ you have used this feature, you cannot use it again until you have completed a l
 		When you are attacked by a creature you can see within 30 feet of you, you can use your
 		reaction to impose disadvantage on the attack roll, as shadows
 		envelop your form. An attacker that can’t be blinded is
-		immune to this feature. You can use this feature a number of times equal to
-		your Wisdom modifier (a minimum of once), and regain all
-		expended uses when you finish a long rest.</description>
+		immune to this feature. ({{wisdom:modifier}}/day). </description>
 					<description level="6">When anyone is attacked by a creature you can see within 30 feet of you, you can use your
 				reaction to impose disadvantage on the attack roll. An attacker that can’t be blinded is
-				immune to this feature. You can use this feature a number of times equal to
-				your Wisdom modifier (a minimum of once), and regain all
-				expended uses when you finish a long rest.</description>
+				immune to this feature. ({{wisdom:modifier}}/day).</description>
 
 
     </sheet>
