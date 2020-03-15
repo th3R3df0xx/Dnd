@@ -80,7 +80,7 @@ roll randomly.
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
-			<grant type="Proficiency" name="Tools of the Trade" supports="Musical Instrument || Gaming Set" />
+			<grant type="Proficiency" name="Tools of the Trade" supports="Musical Instrument" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_BANDIT_ROUTES" />
 			<select type="List" name="d6 Bandit Specialty" optional="true">
