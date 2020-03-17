@@ -4,12 +4,12 @@
 		<name>Humblewood spells</name>
 		
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
 		</update>
 	</info>
 
-	<element name="AMBUSH PREY" type="Spell" source="Humblewood" id="ID_H_SPELL_AMBUSH_PREY">
+	<element name="Ambush Prey" type="Spell" source="Humblewood" id="ID_H_SPELL_AMBUSH_PREY">
 		<supports>Ranger</supports>
 		<description>
 			<p class="indent">
@@ -82,7 +82,7 @@ your own eyes at any time during your turn.
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters></element>
-    	<element name="FEATHERED REACH" type="Spell" source="Humblewood" id="ID_H_SPELL_FEATHERED_REACH">
+    	<element name="Feathered Reach" type="Spell" source="Humblewood" id="ID_H_SPELL_FEATHERED_REACH">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p class="indent">
@@ -130,7 +130,7 @@ be encumbered</p>
 		</setters>
 	</element>
 
-	<element name="GLOBE OF TWILIGHT" type="Spell" source="Humblewood" id="ID_H_SPELL_GLOBE_OF_TWILIGHT">
+	<element name="Globe of Twilight" type="Spell" source="Humblewood" id="ID_H_SPELL_GLOBE_OF_TWILIGHT">
 		<supports>Druid, Warlock, Ranger</supports>
 		<description>
 			<p class="indent"> You shroud the area surrounding you in a sphere
@@ -178,7 +178,7 @@ end of its turn.
 		</setters>
 
 </element>
-	<element name="GUST BARRIER" type="Spell" source="Humblewood" id="ID_H_SPELL_GUST_BARRIER">
+	<element name="Gust Barrier" type="Spell" source="Humblewood" id="ID_H_SPELL_GUST_BARRIER">
 		<supports>Wizard, Druid, Bard, Sorcerer</supports>
 		<description>
 			<p class="indent">
@@ -209,7 +209,7 @@ knocked prone.
 			<set name="isRitual">false</set>
 		</setters>
 </element>
-	<element name="INVOKE THE AMARANTHINE" type="Spell" source="Humblewood" id="ID_H_SPELL_INVOKE_THE_AMARANTHINE">
+	<element name="Invoke the Amaranthine" type="Spell" source="Humblewood" id="ID_H_SPELL_INVOKE_THE_AMARANTHINE">
 		<supports> Cleric, Paladin</supports>
 		<description>
 			<p class="indent">
@@ -255,7 +255,7 @@ dice have been expended.
 			<set name="isRitual">false</set>
 		</setters>
 </element>
-	<element name="SHAPE PLANTS" type="Spell" source="Humblewood" id="ID_H_SPELL_SHAPE_PLANTS">
+	<element name="Shape Plants" type="Spell" source="Humblewood" id="ID_H_SPELL_SHAPE_PLANTS">
 		<supports>Bard, Cleric, Druid</supports>
 		<description>
 			<p class="indent">
@@ -305,7 +305,7 @@ slot level above 4th.
 			<set name="isRitual">false</set>
 		</setters>
 </element>
-	<element name=" SPINY SHIELD" type="Spell" source="Humblewood" id="ID_H_SPELL_SPINY_SHIELD">
+	<element name=" Spiny Shield" type="Spell" source="Humblewood" id="ID_H_SPELL_SPINY_SHIELD">
 		<supports>Wizard,  Druid, Ranger, Sorcerer</supports>
 		<description>
 			<p class="indent">
@@ -340,7 +340,7 @@ slot above 1st level, increase the spell’s effect by an additional
 			<set name="isRitual">false</set>
 		</setters>
 </element>
-	<element name=" STELLAR BODIES" type="Spell" source="Humblewood" id="ID_H_SPELL_STELLAR_BODIES">
+	<element name=" Stellar Bodies" type="Spell" source="Humblewood" id="ID_H_SPELL_STELLAR_BODIES">
 		<supports>Wizard, Cleric, Druid, Sorcerer</supports>
 		<description>
 			<p class="indent">
@@ -385,7 +385,7 @@ by 5 feet.
 			<set name="isRitual">false</set>
 		</setters>
 </element>
-	<element name="VEIL OF DUSK" type="Spell" source="Humblewood" id="ID_H_SPELL_VEIL_OF_DUSK">
+	<element name="Veil of Dusk" type="Spell" source="Humblewood" id="ID_H_SPELL_VEIL_OF_DUSK">
 		<supports> Warlock, Druid </supports>
 		<description>
 			<p class="indent">
