@@ -4,7 +4,7 @@
 		<name>Humblewood</name>
 		<description>The content from the Humblewood Handbook.</description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.1.4">
+		<update version="0.1.5">
 			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
 		</update>
 	</info>
@@ -25,6 +25,7 @@
 		<!-- Background -->
 		<file name="Background-Bandit-Defector.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Bandit-Defector.xml" />
 		<!-- Classes -->
+		<file name="fighter-scofflaw.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/fighter-scofflaw.xml" />
 		<file name="cleric-nightdomain.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/cleric-nightdomain.xml" />
 		<file name="communitydomain.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/cleric-communitydomain.xml" />
 	</files>
