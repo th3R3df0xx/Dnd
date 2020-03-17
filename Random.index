@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Random</name>
+		<description>The content from the Random Places and my Head stored here till I get around to spliting them.</description>
+		<author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.0.1">
+			<file name="Random.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Random.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/OtherRaces/source.xml" />
+		
+		<!-- races -->
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/OtherRaces/kbp-gemdragonborn.xml" />
+		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		
+	</files>
+</index>
