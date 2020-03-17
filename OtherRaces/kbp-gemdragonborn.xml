@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragonborn</name>
+		<description></description>
+		<author url="https://koboldpress.com/heritage-of-heroes-gem-dragonborn/">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="kbp-gemdragonborn.xml" url="https://raw.githubusercontent.comth3R3df0xx/Dnd/master/core/players-handbook/races/race-dragonborn.xml" />
+		</update>
+	</info>
+	
+	<element name="Dragonborn" type="Race" source="Player’s Handbook" id="ID_RACE_DRAGONBORN">
+		<description>
+			<p class="flavor">Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>
+		
+		
+			<h4>DRAGONBORN TRAITS</h4>
+			<p>Your draconic heritage manifests in a variety of traits you share with other dragonborn.</p>
+			<p>
+			<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Charisma score increases by 1.
+			<br />
+			<span class="feature">Age.</span>Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
+			<br />
+			<span class="feature">Alignment.</span>Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.
+			<br />
+			<span class="feature">Size.</span>Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
+			<br />
+			<span class="feature">Speed.</span>Your base walking speed is 30 feet.
+			<br />
+			<span class="feature">Draconic Ancestry.</span>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
+			<br />
+			<span class="feature">Breath Weapon.</span>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.
+			<br />
+			<span class="feature">Damage Resistance.</span>You have resistance to the damage type associated with your draconic ancestry.
+			<br />
+			<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+			<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2"/>
+			<stat name="charisma" value="1"/>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+		</rules>
+	</element>
+
+
+	<element name="Draconic Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+		<description>
+			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Damage Type</td>
+						<td>Breath Weapon</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>Amethyst</td>
+					<td>Force</td>
+					<td>5 by 30 ft. line (Dex. save)</td>
+				</tr>
+				<tr>
+					<td>Emerald</td>
+					<td>Thunder</td>
+					<td>5 by 30 ft. line (Dex. save)</td>
+				</tr>
+				<tr>
+					<td>Sapphire</td>
+					<td>Thunder</td>
+					<td>5 by 30 ft. line (Dex. save)</td>
+				</tr>
+				<tr>
+					<td>Topaz</td>
+					<td>Cold</td>
+					<td>5 by 30 ft. line (Dex. save)</td>
+				</tr>
+				
+				<tr>
+					<td>Crystal</td>
+					<td>Radiant</td>
+					<td>15 ft. cone (Dex. save)</td>
+				</tr>
+			
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
+			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+			<p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}}  DC {{breath-weapon:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="breath-weapon:dc" value="8" />
+			<stat name="breath-weapon:dc" value="constitution:modifier" />
+			<stat name="breath-weapon:dc" value="proficiency" />
+			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
+			<stat name="breath-weapon:dice count" value="2" level="1" />
+			<stat name="breath-weapon:dice count" value="1" level="6" />
+			<stat name="breath-weapon:dice count" value="1" level="11" />
+			<stat name="breath-weapon:dice count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Damage Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_AMETHYST"/>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_EMERALD||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SAPPHIRE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CRYSTAL" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_TOPAZ"/>
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Amethyst)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_AMETHYST">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Amethyst">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Amethyst"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Force" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Emerald)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_EMERALD">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Emerald">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Emerald"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Thunder" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15-ft. cone (Con. save)" />
+		</rules>
+	</element>
+	
+	<element name="Draconic Ancestry (Sapphire)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SAPPHIRE">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Sapphire">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Sapphire"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Thunder" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15-ft. cone (Con. save)" />
+		</rules>
+	</element>
+
+	<element name="Draconic Ancestry (Crystal)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CRYSTAL">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Crystal">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Crystal"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Radiant" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Con. save)" />
+		</rules>
+	</element>
+
+	<element name="Draconic Ancestry (Topaz)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_TOPAZ">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Topaz">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Topaz"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Con. save)" />
+		</rules>
+	</element>
+		
+</elements>
