@@ -1,1 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
+		</update>
+	</info>
+	<element name="Random" type="Source" source="OtherRaces" id="ID_R_SOURCE_OTHERRACES">
+		<description>
+			<p>The content from the Random Places and my Head stored here till I get around to spliting them.</p>
 
+		</description>
+		<setters>
+			<set name="abbreviation">RH</set>
+			<set name="url">https://thedeckofmany.com/</set>
+			<set name="image">https://i.redd.it/pgbjb8y74l441.jpg</set>
+			<set name="author" abbreviation="RR" url="https://thedeckofmany.com/">Random</set>
+			<set name="Other">true</set>
+			<set name="release">20190411</set>
+			
+		</setters>
+	</element>
+</elements>
