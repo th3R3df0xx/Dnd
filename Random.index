@@ -12,8 +12,9 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/OtherRaces/source.xml" />
 		
 		<!-- races -->
-		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/OtherRaces/kbp-gemdragonborn.xml" />
-		<file name="1" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/race-" />
+		<file name="kbp-gemdragonborn.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/OtherRaces/kbp-gemdragonborn.xml" />
+		<file name="Shadowborn.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/OtherRaces/Shadowborn.xml" />
+		
 		
 	</files>
 </index>
