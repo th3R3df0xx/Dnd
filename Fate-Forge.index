@@ -13,7 +13,8 @@
 		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Feats.xml" /> 
 		<!--Background-->
 		<file name="background-animist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-animist.xml" />
-		
+		<file name="background-survivor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-survivor.xml" /> 
+		<file name="background-bohemian.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-bohemian.xml" /> 
 		<!--class-->
 		<file name="Subclass-Wizard-Disenchanter.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Subclass-Wizard-Disenchanter.xml" />
 		<file name="Subclass-Wizard-Elementalist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Subclass-Wizard-Elementalist.xml" />
