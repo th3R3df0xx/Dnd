@@ -10,6 +10,7 @@
 		<!--misc-->
 		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Source.xml" />
 		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Spells.xml" />
+		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Feats.xml" /> 
 		<!--Background-->
 		<file name="background-animist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-animist.xml" />
 		
