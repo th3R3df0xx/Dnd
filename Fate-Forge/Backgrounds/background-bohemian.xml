@@ -5,7 +5,7 @@
 		<description>Bohemian Background</description>
 	  <author url="www.studio-agate.com">Studio Agate</author>
         <update version="0.0.5">
-           <file name="background-bohemian.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Feats.xml" />  </update>
+           <file name="background-bohemian.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-bohemian.xml" />  </update>
 	</info>
 
 	<element name="Bohemian" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_BOHEMIAN">
