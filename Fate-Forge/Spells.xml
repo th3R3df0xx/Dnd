@@ -2,7 +2,7 @@
 <elements>
 <info>
 		<update version="0.1.2">
-			<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords/source.xml" />
+			<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Spells.xml" />
 		</update>
 	</info>
 	<element name="Acid Blob" type="Spell" source="Fate Forge Spellbook" id="ID_ES_SPELL_ACID_BLOB">
