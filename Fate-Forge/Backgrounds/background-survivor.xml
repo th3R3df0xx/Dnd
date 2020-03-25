@@ -8,13 +8,9 @@
 		<update version="0.0.5">
 			<file name="background-survivor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-survivor.xml" />  </update>
 	</info>
-	<element name="Survivor" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_SURVIVOR">
+	<element name="Survivor" type="Background" source="Fate Forge" id="ID_BACKGROUND_SURVIVOR">
 		<description>
-			<p>For as long as you can remember, you have always been surrounded by blood and death. War took many
-                of your loved ones, mercilessly drove you from one country to another, stripped you bare more than
-                once, but finally spat you out. Now, you see war as something of a dreadful parent.
-                Alternatively, your community may have been the victim of natural disasters, epidemics, or any other series
-                of calamities through which you made it out alive.</p>
+			<p>For as long as you can remember, you have always been surrounded by blood and death. War took many of your loved ones, mercilessly drove you from one country to another, stripped you bare more than once, but finally spat you out. Now, you see war as something of a dreadful parent. Alternatively, your community may have been the victim of natural disasters, epidemics, or any other series of calamities through which you made it out alive.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Choose two from Athletics, Investigation, Perception, and Survival</li>
                 <li><strong>Tool Proficiencies:</strong> Herbalism kit or alchemist’s supplies</li>
@@ -24,17 +20,7 @@
 			</ul>
 			<div element="ID_BACKGROUND_FEATURE_BETWEEN_THE_RAINDROPS" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
-			<p>By definition, survivors are hurt people, usually
-                psychologically more than physically. They
-                are more hardened than most fledgling
-                adventurers and can pass as more
-                experienced. They are often protective
-                toward their companions, which
-                makes them an appreciated presence.
-                The biggest problems surface
-                when badly healed scars
-                reopen under the pressure
-                of stress or a trying event.</p>
+			<p>By definition, survivors are hurt people, usually psychologically more than physically. They are more hardened than most fledgling adventurers and can pass as more experienced. They are often protective toward their companions, which makes them an appreciated presence. The biggest problems surface when badly healed scars reopen under the pressure of stress or a trying event.</p>
 		</description>
 		<setters>
 			<set name="short">One language of your choice. Choose two from Animal Handling, Investigation, Perception, and Survival and ether One type of artisan’s tools, musical instrument, or gaming set </set>
@@ -85,16 +71,10 @@
 		</rules>
 	</element>
 	
-	<element name="Feature: Between the Raindrops" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_BETWEEN_THE_RAINDROPS">
+	<element name="Feature: Between the Raindrops" type="Background Feature" source="Fate Forge" id="ID_BACKGROUND_FEATURE_BETWEEN_THE_RAINDROPS">
 		<supports>Background Feature</supports>
 		<description>
-			<p>Your experience with war and assorted calamities has made
-                you sensitive to portents of mortal danger, allowing you to
-                steer clear of it. When you are traveling through a region
-                where large-scale fighting is taking place (at least several
-                dozen combatants) or where disaster is brewing, you can
-                spontaneously find the least exposed paths and locate the
-                safest resting spots.</p>
+			<p>Your experience with war and assorted calamities has made you sensitive to portents of mortal danger, allowing you to steer clear of it. When you are traveling through a region where large-scale fighting is taking place (at least several dozen combatants) or where disaster is brewing, you can spontaneously find the least exposed paths and locate the safest resting spots.</p>
 		</description>
 		<sheet alt="Between the Raindrops" />
 	</element>
