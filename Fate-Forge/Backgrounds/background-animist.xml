@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Animist" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_ANIMIST">
+	<element name="Animist" type="Background" source="Fate Forge" id="ID_BACKGROUND_ANIMIST">
 		<description>
 			<p>Not everyone may believe you, but for you there is no doubt about it: you are able to communicate with
                 spirits. The spirits of animals, the spirit of every object, the spirits of storms and rivers… maybe even the
@@ -39,7 +39,7 @@
 			<set name="short">One language of your choice. Choose two from Insight, Perception, Persuasion, and Religion and ether proficiency with the Herbalism kit or alchemist’s supplies. </set>
 		</setters>
 		<rules>
-            <select type="Proficiency" name="Skill (Animists)" Number="2" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" />
+            <select type="Proficiency" name="Skill (Animists)" Number="2" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" />
             <select type="Proficiency" name="Tool (Animists)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
             <select type="Language" name="Language (Animists)" supports="Standard||Exotic" />
             <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_ESOTERIC_APPEAL" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
@@ -81,7 +81,7 @@
 		</rules>
 	</element>
 	
-	<element name="Feature: Esoteric Appeal" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_ESOTERIC_APPEAL">
+	<element name="Feature: Esoteric Appeal" type="Background Feature" source="Fate Forge" id="ID_BACKGROUND_FEATURE_ESOTERIC_APPEAL">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Within any community, you can find people interested in your spiritual experiments, willing to listen to you and
