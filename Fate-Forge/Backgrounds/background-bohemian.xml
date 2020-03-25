@@ -8,7 +8,7 @@
            <file name="background-bohemian.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-bohemian.xml" />  </update>
 	</info>
 
-	<element name="Bohemian" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_BOHEMIAN">
+	<element name="Bohemian" type="Background" source="Fate Forge" id="ID_BACKGROUND_BOHEMIAN">
 		<description>
 			<p>Always on the road, from one town to another, from festival to gathering, you have journeyed thousands of
                 miles. You are from an itinerant, nomadic community organized around colorful wagons and dazzling shows.
@@ -35,7 +35,7 @@
 			<set name="short">One language of your choice. Choose two from Animal Handling, Performance, Sleight of Hand, and Survival and ether One type of artisan’s tools, musical instrument, or gaming set </set>
 		</setters>
 		<rules>
-            <select type="Proficiency" name="Skill (Bohemian)" Number="2" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_SLEIGHT_OF_HAND|ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <select type="Proficiency" name="Skill (Bohemian)" Number="2" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_SURVIVAL" />
             <select type="Proficiency" name="Tools of the Road (Bohemian)" supports="Musical Instrument || Gaming Set || Artisan tools" />
             <select type="Language" name="Language (Bohemian)" supports="Standard||Exotic" />
             <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_A_FAMILY_IN_EVERY_TOWN" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
@@ -80,7 +80,7 @@
 		</rules>
 	</element>
 	
-	<element name="Feature: A Family in Every Town" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_A_FAMILY_IN_EVERY_TOWN">
+	<element name="Feature: A Family in Every Town" type="Background Feature" source="Fate Forge" id="ID_BACKGROUND_FEATURE_A_FAMILY_IN_EVERY_TOWN">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Within any community, you can find people interested in your spiritual experiments, willing to listen to you and
