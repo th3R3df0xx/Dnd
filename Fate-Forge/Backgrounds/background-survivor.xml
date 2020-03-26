@@ -6,7 +6,7 @@
 	  <author url="www.studio-agate.com">Studio Agate</author>
        
 		<update version="0.0.5">
-			<file name="background-survivor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-survivor.xml" />  </update>
+			<file name="background-survivor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-survivor.xml" />  </update>
 	</info>
 	<element name="Survivor" type="Background" source="Fate Forge" id="ID_BACKGROUND_SURVIVOR">
 		<description>
