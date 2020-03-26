@@ -6,7 +6,7 @@
 	  <author url="www.studio-agate.com">Studio Agate</author>
        
 		<update version="0.0.5">
-			<file name="background-notable.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-notable.xml" />  </update>
+			<file name="background-notable.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-notable.xml" />  </update>
 	</info>
 	<element name="Notable" type="Background" source="Fate Forge" id="ID_BACKGROUND_NOTABLE">
 		<description>
