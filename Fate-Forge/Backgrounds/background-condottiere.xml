@@ -56,7 +56,7 @@
                 <item id="3"> Now, I fight for a cause or, at least, for something. Before that, I was simply violent.</item>
                 <item id="4"> I am not yet ready to take on the villain who destroyed what I held dear, but every day, I hone my skills.</item>
                 <item id="5"> I fight tirelessly to forget, but some memories never go away.</item>
-                <item id="6"> One day, the gold I am gathering through campaigns and adventures will allow me to fulfill my dream.2 I would rather suffer a thousand deaths than dishonor my ancestors.</item>
+                <item id="6"> One day, the gold I am gathering through campaigns and adventures will allow me to fulfill my dream.</item>
      </select>
                      
                 <select name="Flaw" type="List">
