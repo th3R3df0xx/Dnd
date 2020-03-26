@@ -6,7 +6,7 @@
 	  <author url="www.studio-agate.com">Studio Agate</author>
        
 		<update version="0.0.5">
-			<file name="background-recluse.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-recluse.xml" />  </update>
+			<file name="background-recluse.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-recluse.xml" />  </update>
 	</info>
 	<element name="Recluse" type="Background" source="Fate Forge" id="ID_BACKGROUND_RECLUSE">
 		<description>
@@ -28,7 +28,7 @@
             <select type="Proficiency" name="Skill (Recluse)" Number="2" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_SURVIVAL" />
             <select type="Proficiency" name="Tools (Recluse)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT |ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|| Artisan tools" />
             <select type="Language" name="Language (Recluse)" supports="Standard||Exotic" />
-            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_SIXTH_SENSEA" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_SIXTH_SENSE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select name="Personality Trait" type="List">
                 <item id="1"> I am infinitely patient, so long as I am left to my reflections.</item>
