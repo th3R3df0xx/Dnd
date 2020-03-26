@@ -6,7 +6,7 @@
 	  <author url="www.studio-agate.com">Studio Agate</author>
        
 		<update version="0.0.5">
-			<file name="background-scoundrel.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/background-scoundrel.xml" />  </update>
+			<file name="background-scoundrel.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-scoundrel.xml" />  </update>
 	</info>
 	<element name="Scoundrel" type="Background" source="Fate Forge" id="ID_BACKGROUND_SCOUNDREL">
 		<description>
@@ -20,7 +20,7 @@
                 <li><strong>Language:</strong> One language of your choice</li>
 				<li><strong>Equipment:</strong>A set of common clothes, various forged documents, the tools you are proficient in, and a belt pouch containing 15 gp</li>
 			</ul>
-			<div element="ID_BACKGROUND_FEATURE_KNOWLEDGE_OF _THE_UNDERWORLD" />
+			<div element="ID_BACKGROUND_FEATURE_KNOWLEDGE_OF_THE_UNDERWORLD" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>Adventurers with a criminal background are plentiful. Most, but not all, take this path out of greed. Some see in it a way to make a name for themselves, to perform beyond the uneasy tedium of their questionable activities. When their traveling companions are aware of their origins, they tend to be wary of such a disreputable individual, but such suspicion rapidly fades if there is nothing on which to ground it. Characters with this background tend to have particularly troublesome bonds.</p>
 		</description>
@@ -29,9 +29,9 @@
 		</setters>
 		<rules>
             <select type="Proficiency" name="Skill (Scoundrel)" Number="2" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
-            <select type="Proficiency" name="Tools (Scoundrel)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT |ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+            <select type="Proficiency" name="Tools (Scoundrel)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
             <select type="Language" name="Language (Scoundrel)" supports="Standard||Exotic" />
-            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_KNOWLEDGE_OF _THE_UNDERWORLD" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_KNOWLEDGE_OF_THE_UNDERWORLD" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select name="Personality Trait" type="List">
              <item id="1"> When I meet someone, I like to make them squirm, to make them feel I am a threat to them, particularly if they think themselves better than me.</item>
@@ -74,7 +74,7 @@
 		</rules>
 	</element>
 	
-	<element name="Feature: Knowledge of the Underworld" type="Background Feature" source="Fate Forge" id="ID_BACKGROUND_FEATURE_KNOWLEDGE_OF _THE_UNDERWORLD">
+	<element name="Feature: Knowledge of the Underworld" type="Background Feature" source="Fate Forge" id="ID_BACKGROUND_FEATURE_KNOWLEDGE_OF_THE_UNDERWORLD">
 		<supports>Background Feature</supports>
 		<description>
 			<p>You can smell out corruption. Most communities have their share of criminals and crooked officials. Obviously, you cannot spot whether someone is involved in such dealings at a glance, but you can readily find unlawful people whom you can negotiate with or ask for information. From this point onward, what happens is up to you, but you know what you are getting into.</p>
