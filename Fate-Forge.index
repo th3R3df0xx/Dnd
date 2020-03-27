@@ -12,15 +12,15 @@
 		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Spells.xml"/>
 		<file name="Feats.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Feats.xml"/> 
 		<!--Background-->
-		<!--<file name="background-savant.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-savant.xml"/>
-		<file name="background-condottiere.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-condottiere.xml"/> 
-		<file name="background-explorer.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-explorer.xml"/> 
-		<file name="background-notable.xml"	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-notable.xml"/>
-		<file name="background-scoundrel.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-scoundrel.xml"/>
-		<file name="background-animist.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-animist.xml"/>
-		<file name="background-bohemian.xml"	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-bohemian.xml"/> 
-		<file name="background-notable.xml"	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-notable.xml"/>-->
-		<file name="background-survivor.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/masterFate-Forge/Backgrounds/background-survivor.xml"/> 
+		<!--<file name="background-savant.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-savant.xml"/>-->
+		<!--<file name="background-condottiere.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-condottiere.xml"/>--> 
+		<!--<file name="background-explorer.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-explorer.xml"/>--> 
+		<!--<file name="background-notable.xml"	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-notable.xml"/>-->
+		<!--<file name="background-scoundrel.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-scoundrel.xml"/>-->
+		<!--<file name="background-animist.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-animist.xml"/>-->
+		<!--<file name="background-bohemian.xml"	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-bohemian.xml"/>--> 
+		<!--<file name="background-notable.xml"	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-notable.xml"/>-->
+		<!--<file name="background-survivor.xml" 	url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/masterFate-Forge/Backgrounds/background-survivor.xml"/>--> 
 		<!--class-->
 		<file name="Subclass-Wizard-Disenchanter.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Classes/Subclass-Wizard-Disenchanter.xml"/>
 		<file name="Subclass-Wizard-Elementalist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Classes/Subclass-Wizard-Elementalist.xml"/>
