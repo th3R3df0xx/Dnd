@@ -55,7 +55,7 @@
 <select name="3"> I get bored whenever I remain in the same place for more than a few days.</item>
 <select name="4"> I am spurred by the hope of one day finding the land of my dreams.</item>
 <select name="5"> I am from a well-respected family and I take care not to bring them shame through my actions.</item>
-<select name="6"> Faith guides my steps.
+<select name="6"> Faith guides my steps.</item>
              	</select>
                      
                 <select name="Flaw" type="List">
