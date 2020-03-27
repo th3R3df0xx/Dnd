@@ -3,7 +3,7 @@
 	<info>
 		<name>Explorer of Wild Lands</name>
 		<description>Explorer of Wild Lands</description>
-	  <author url="www.studio-agate.com">Studio Agate</author>
+	  <author url="https://www.studio-agate.com">Studio Agate</author>
         <update version="0.0.5">
            <file name="background-explorer.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-explorer.xml" />  </update>
 	</info>
