@@ -4,7 +4,7 @@
 		<name>Fate Forge</name>
 		<description>The Fate Forge.</description>
 		<author url="http://www.studio-agate.com">Studio Agate</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="FateForge.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/FateForge.index" />
 		</update>
 	</info>
