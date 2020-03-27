@@ -11,6 +11,6 @@
 	<files>
         <file name="source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Source.xml" />
         <!--background-->
-		<file name="background-animist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Background/background-animist.xml" />
+		<file name="background-animist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Backgrounds/background-animist.xml" />
 	</files>
 </index>
