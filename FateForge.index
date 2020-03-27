@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Fate Forge</name>
+		<description>The Fate Forge.</description>
+		<author url="http://www.studio-agate.com">Studio Agate</author>
+		<update version="0.0.3">
+			<file name="FateForge.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/FateForge.index" />
+		</update>
+	</info>
+	<files>
+        <file name="source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Source.xml" />
+        <!--background-->
+		<file name="background-animist.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Fate-Forge/Background/background-animist.xml" />
+	</files>
+</index>
