@@ -26,7 +26,7 @@
 		</setters>
 		<rules>
             <select type="Proficiency" name="Skill (Explorer)" Number="2" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
-            <grant type="Proficiency" name="Tools of the Road (Explorer)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
             <select type="Language" name="Language (Explorer)" supports="Standard||Exotic" />
             <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_UNDER_THE_STARS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
