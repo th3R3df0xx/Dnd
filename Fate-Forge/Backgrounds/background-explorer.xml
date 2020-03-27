@@ -42,20 +42,20 @@
 				</select>
             
 			<select name="Ideal" type="List"> 
-<select name="1"> Balance. Prevent those ambitious and uncaring people from ravaging the land that bears and feeds them. (Neutral)</item>
-<select name="2"> Back to the roots. The more I think about it, the more the gifts of civilization seem paltry to me, and its evils considerable. (Neutral)</item>
-<select name="3"> Bellicosity. Being able to give in to one’s most brutal instincts without fear of authorities. (Evil)</item>
-<select name="4"> Solidarity. Discover new places to house those who need it and make them understand that their condition is not irremediable. (Good)</item>
-<select name="5"> Renewal. Every now and then, things must be shaken up to bring some life back into them. (Chaotic)</item>
-<select name="6"> Self-sufficiency. Never depend on other people’s help, whether it comes with strings attached or not. (Any)</item>
+<item id="1"> Balance. Prevent those ambitious and uncaring people from ravaging the land that bears and feeds them. (Neutral)</item>
+<item id="2"> Back to the roots. The more I think about it, the more the gifts of civilization seem paltry to me, and its evils considerable. (Neutral)</item>
+<item id="3"> Bellicosity. Being able to give in to one’s most brutal instincts without fear of authorities. (Evil)</item>
+<item id="4"> Solidarity. Discover new places to house those who need it and make them understand that their condition is not irremediable. (Good)</item>
+<item id="5"> Renewal. Every now and then, things must be shaken up to bring some life back into them. (Chaotic)</item>
+<item id="6"> Self-sufficiency. Never depend on other people’s help, whether it comes with strings attached or not. (Any)</item>
                 	</select>
 			<select name="Bond" type="List">
-<select name="1"> My village is counting on me to save it from the misfortune that struck it.</item>
-<select name="2"> Generous souls have helped me out of a bind more than once, and I intend to do the same for others.</item>
-<select name="3"> I get bored whenever I remain in the same place for more than a few days.</item>
-<select name="4"> I am spurred by the hope of one day finding the land of my dreams.</item>
-<select name="5"> I am from a well-respected family and I take care not to bring them shame through my actions.</item>
-<select name="6"> Faith guides my steps.</item>
+<item id="1"> My village is counting on me to save it from the misfortune that struck it.</item>
+<item id="2"> Generous souls have helped me out of a bind more than once, and I intend to do the same for others.</item>
+<item id="3"> I get bored whenever I remain in the same place for more than a few days.</item>
+<item id="4"> I am spurred by the hope of one day finding the land of my dreams.</item>
+<item id="5"> I am from a well-respected family and I take care not to bring them shame through my actions.</item>
+<item id="6"> Faith guides my steps.</item>
              	</select>
                      
                 <select name="Flaw" type="List">
