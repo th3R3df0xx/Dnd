@@ -14,8 +14,8 @@ The World of Eana, from the wild lands of Kaan to the millennial jungles of Acoa
 		<setters>
 			<set name="abbreviation">FATE</set>
 			<set name="url">https://fateforge.org/en</set>
-			<set name="image">https://images-geeknative-com.exactdn.com/wp-content/uploads/2019/08/15222157/Fateforge_Corebook_Adventurers-1000px.jpg?strip=all&lossy=1&w=350&ssl=1</set>
-			<set name="author" abbreviation="AGS" url="">https://www.studio-agate.com">Studio Agate</set>
+			<set name="image">https://fateforge.org/build/dragons/Fateforge_Book_Core_Adventurers.jpg</set>
+			<set name="author" abbreviation="AGS" url="https://www.studio-agate.com">Studio Agate</set>
 			<set name="third-party">true</set>
 			
 		</setters>
