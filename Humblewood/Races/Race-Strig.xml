@@ -2,9 +2,9 @@
 <elements>
 <info>
 		<name>Strig</name>
-		<description></description>
+		<description><img src="https://github.com/th3R3df0xx/Dnd/blob/master/strigs.JPG?raw=true" /></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
 		</update>
 	</info>
