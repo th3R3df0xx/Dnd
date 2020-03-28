@@ -4,7 +4,7 @@
 		<name>Strig</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
 
 	<element name="Strig" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_STRIG">
 		<description>
-			<img src="https://https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/strigs.JPG" />
+			<img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/strigs.JPG" />
 
 			
 			<p>Strigs are the most imposing of the birdfolk races. Resembling
