@@ -2,9 +2,9 @@
 <elements>
 <info>
 		<name>Strig</name>
-		<description><img src="https://github.com/th3R3df0xx/Dnd/blob/master/strigs.JPG?raw=true" /></description>
+		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
 		</update>
 	</info>
@@ -13,6 +13,9 @@
 
 	<element name="Strig" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_STRIG">
 		<description>
+			<img src="https://https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/strigs.JPG" />
+
+			
 			<p>Strigs are the most imposing of the birdfolk races. Resembling
 owls, their thick feathers, solid bodies, and broad wings
 have earned them a reputation as the most powerful of the
