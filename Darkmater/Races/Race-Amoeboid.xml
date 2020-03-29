@@ -131,7 +131,7 @@
             </description>
         </sheet>
            </element>
-    <element name=" Reform" type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AMOEBOID_REFORM">
+    <element name="Reform" type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AMOEBOID_REFORM">
         <description>
             <p>
                 Whenever you take bludgeoning, piercing, or slashing damage from a nonmagical weapon and don't drop to 0 hit points, you can use your reaction to immediately regain 1d4 hit points, up to a maximum of the amount of damage taken.
