@@ -5,13 +5,13 @@
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.3">
-		<file name="Race-Amoeboid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmater/Races/Race-Amoeboid.xml" />
+		<file name="Race-Amoeboid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Amoeboid.xml" />
 		</update>
 	</info>
 
 
 
-    <element name="Amoeboid" type="Race" source="Darkmater" id="ID_MHP_DM_SOURCE_DARKMATER_AMOEBOID">
+    <element name="Amoeboid" type="Race" source="Darkmatter" id="ID_MHP_DM_SOURCE_DARKMATER_AMOEBOID">
       
         <description>
 
@@ -102,7 +102,7 @@
         </rules>
     </element>
 
-    <element name="Flexible Form." type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AMOEBOID_FLEXIBLEFORM">
+    <element name="Flexible Form." type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AMOEBOID_FLEXIBLEFORM">
         <description>
             <p>
                 You can use your action to stretch, compress, and mold your body into a myriad of shapes. You can transform into any static form that you choose that is no larger than 8 feet in any dimension. When you assume this form, you can replicate something’s basic shape but not its color, texture, moving parts, or fine details. You can’t change your body’s volume, nor can you move, attack, or cast spells while you’re transformed into a static shape. You can also use your action to touch a living creature and assume its general form. Your size and other statistics don’t change. You gain the ability to speak and understand that creature’s language, and if the target has a burrowing, climbing, or swimming speed, you gain those with the same speed, up to a maximum of 40 feet. Your transformation ends after 1 hour, or when you choose to end it on your turn (no action required). If you transform into a form incapable of wearing armor, your armor falls off. You can only take actions while you’re transformed if you are in the form of a creature, and you can only take actions that creature would be able to take.
@@ -117,7 +117,7 @@
         </sheet>
 
     </element>
-    <element name="Amorphous." type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AMOEBOID_AMORPHOUS">
+    <element name="Amorphous." type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AMOEBOID_AMORPHOUS">
         <description>
             <p>
                 You can compress your body enough to squeeze through a 1-inch wide space. You can't expand inside a space that offers any resistance.
@@ -131,7 +131,7 @@
             </description>
         </sheet>
            </element>
-    <element name="Reform" type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AMOEBOID_REFORM">
+    <element name="Reform" type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AMOEBOID_REFORM">
         <description>
             <p>
                 Whenever you take bludgeoning, piercing, or slashing damage from a nonmagical weapon and don't drop to 0 hit points, you can use your reaction to immediately regain 1d4 hit points, up to a maximum of the amount of damage taken.
