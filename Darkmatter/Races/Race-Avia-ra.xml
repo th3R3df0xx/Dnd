@@ -14,8 +14,8 @@
     <element name="Avia-ra" type="Race" source="Darkmatter" id="ID_MHP_DM_SOURCE_DARKMATTER_AVIA_RA">
       
         <description>
-
-            <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/Avia-ra.JPG" />
+	    <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/Amoeboid.JPG" height="100" width="100"/>		
+            <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/Avia-ra.jpg" />
             <p>
             The avia-ra are a sun-worshipping race of wingless birdmen, which appear to primitive cultures to spread their ancient religion
             </p>
