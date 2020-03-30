@@ -13,7 +13,7 @@
 
     <element name="Nautilid" type="Race" source="Darkmatter" id="ID_DOM_H_SOURCE_DARKMATTER_NAUTILID">
         <description>
-  <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/nautilids.jpg" height="100" width="100"/>
+  <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/nautilids.jpg" height="200" width="200"/>
             <p>
 A race of universe-spanning travelers, the hulking, fishlike
 nautilids patrol space in their massive whorl ships,
