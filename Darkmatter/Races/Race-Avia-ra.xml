@@ -3,15 +3,15 @@
   	<info>
 		<name>Avia-ra</name>
 		<description></description>
-		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.3">
+		<author url="https://store.magehandpress.com/">Mage Hand Press</author>
+		<update version="0.0.1">
 			<file name="Race-Avia-ra.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Avia-ra.xml" />
 		</update>
 	</info>
 
 
 
-    <element name="Avia-ra" type="Race" source="Darkmater" id="ID_MHP_DM_SOURCE_DARKMATER_AVIA_RA">
+    <element name="Avia-ra" type="Race" source="Darkmatter" id="ID_MHP_DM_SOURCE_DARKMATTER_AVIA_RA">
       
         <description>
 
@@ -127,7 +127,7 @@
         </rules>
     </element>
 
-    <element name="Doctrine." type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AVIA_RA_DOCTRINE">
+    <element name="Doctrine." type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AVIA_RA_DOCTRINE">
         <description>
             <p>
                 You have proficiency in the Religion skill.
@@ -141,7 +141,7 @@
 		</rules>
 
     </element>
-    <element name="Blessings of the Sun." type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AVIA_RA_BLESSINGS_OF_THE_SUN">
+    <element name="Blessings of the Sun." type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AVIA_RA_BLESSINGS_OF_THE_SUN">
         <description>
             <p>
                 Blessings of the Sun. You can cast the spell bless, targeting only yourself, without using a spell slot. Wisdom is your spellcasting ability for this spell. For the spell’s duration, if you roll a 4 on the d4 that you add to an attack roll or saving throw, you gain advantage on that attack roll or saving throw. Once you use this trait, you can’t use it again until you finish a long rest.
@@ -158,7 +158,7 @@
          <grant type="Spell" id="ID_PHB_SPELL_BLESS" />
           </rules>
            </element>
-    <element name="Sun's Chosen" type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AVIA_RA_SUNCHOSEN">
+    <element name="Sun's Chosen" type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AVIA_RA_SUNCHOSEN">
         <description>
             <p>
                 You know the sacred flame and thaumaturgy cantrips. Wisdom is your spellcasting ability for these spells.    </p>
@@ -173,7 +173,7 @@
         <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
          </rules>
     </element>
-    <element name="Avia-Ra Weapon Training" type="Racial Trait" source="Darkmater" id="ID_RACIAL_TRAIT_AVIA_RA_WEAPONTRAINING">
+    <element name="Avia-Ra Weapon Training" type="Racial Trait" source="Darkmatter" id="ID_RACIAL_TRAIT_AVIA_RA_WEAPONTRAINING">
         <description>
             <p>
                 You have proficiency with the avia-ra sunstaff, scimitar, shortbow, spear, and whip.
