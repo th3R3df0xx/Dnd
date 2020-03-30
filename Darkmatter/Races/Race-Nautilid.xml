@@ -4,7 +4,7 @@
 		<name>Nautilid</name>
 		<description></description>
 		<author url="https://store.magehandpress.com/">Mage Hand Press</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Race-Nautilid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Nautilid.xml" />
 		</update>
 	</info>
