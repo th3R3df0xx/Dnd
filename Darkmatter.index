@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Fate Forge</name>
+		<description>The Fate Forge.</description>
+		<author url="http://www.studio-agate.com">Studio Agate</author>
+		<update version="0.0.7">
+			<file name="Darkmatter.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter.index" />
+		</update>
+	</info>
+	<files>
+        <file name="source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Source.xml" />
+        <!--races-->
+	<file name="Race-Amoeboid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Amoeboid.xml" />
+  <file name="Race-Avia-ra.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Avia-ra.xml" />
+	<file name="Race-Nautilid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Nautilid.xml" />
+
+	      </files>
+</index>
