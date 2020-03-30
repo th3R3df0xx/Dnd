@@ -3,8 +3,8 @@
     	<info>
 		<name>Nautilid</name>
 		<description></description>
-		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="1.0.0">
+		<author url="https://store.magehandpress.com/">Mage Hand Press</author>
+		<update version="0.0.1">
 			<file name="Race-Nautilid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Nautilid.xml" />
 		</update>
 	</info>
