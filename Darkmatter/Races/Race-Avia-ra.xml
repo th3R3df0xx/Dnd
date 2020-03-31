@@ -4,7 +4,7 @@
 		<name>Avia-ra</name>
 		<description></description>
 		<author url="https://store.magehandpress.com/">Mage Hand Press</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Race-Avia-ra.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Avia-ra.xml" />
 		</update>
 	</info>
@@ -14,7 +14,7 @@
     <element name="Avia-ra" type="Race" source="Darkmatter" id="ID_MHP_DM_SOURCE_DARKMATTER_AVIA_RA">
       
         <description>
-	    <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/avia-ra.jpg" height="367" width="400"/>		
+	    <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/avia-ras.jpg" height="367" width="400"/>		
             <p>
             The avia-ra are a sun-worshipping race of wingless birdmen, which appear to primitive cultures to spread their ancient religion
             </p>
