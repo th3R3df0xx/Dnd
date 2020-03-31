@@ -13,7 +13,7 @@
 
     <element name="Mapach" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_MAPACH">
         <description>
-
+  <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/mapach" height="367" width="400"/>
             <p>
 Naturally curious, mapachs are a medium-sized racoon-like
 race. They are crafty, hearty, and tough, but their true strength
