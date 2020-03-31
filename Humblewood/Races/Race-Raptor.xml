@@ -4,7 +4,7 @@
 		<name>Raptor</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Race-Raptor.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Raptor.xml" />
 		</update>
 	</info>
@@ -13,6 +13,7 @@
 
 	<element name="Raptor" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_RAPTOR">
 		<description>
+			<img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/raptor.jpg" height="367" width="400"/>
 			<p>When the birdfolk think of hunters or rangers, they picture
 a raptor. Resembling small hawks, eagles, and other birds of
 prey, they have sharp talons and agile builds that help them
