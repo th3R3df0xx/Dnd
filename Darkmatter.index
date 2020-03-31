@@ -4,7 +4,7 @@
 		<name>Fate Forge</name>
 		<description>Mage Hand Press.</description>
 		<author url="https://store.magehandpress.com/">Mage Hand Press</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="Darkmatter.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter.index" />
 		</update>
 	</info>
