@@ -4,7 +4,7 @@
 		<name>Lumas</name>
 		<description></description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="Race-Lumas.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Lumas.xml" />
 		</update>
 	</info>
@@ -13,6 +13,7 @@
 
 	<element name="Lumas" type="Race" source="Humblewood" id="ID_DOM_H_SOURCE_HUMBLEWOOD_LUMAS">
 		<description>
+			  <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/luma.jpg" height="367" width="400"/>
 			<p>Lumas are a race of polar opposites when it comes to
 their role in perch society. They are as often shunned for their
 eccentricities as they are celebrated for them. Lumas are smaller
