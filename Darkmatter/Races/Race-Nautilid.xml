@@ -4,7 +4,7 @@
 		<name>Nautilid</name>
 		<description></description>
 		<author url="https://store.magehandpress.com/">Mage Hand Press</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Race-Nautilid.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Darkmatter/Races/Race-Nautilid.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
 
     <element name="Nautilid" type="Race" source="Darkmatter" id="ID_DOM_H_SOURCE_DARKMATTER_NAUTILID">
         <description>
-  <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/nautilids.jpg" height="200" width="200"/>
+  <img src="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/image/nautilid.jpg" height="367" width="400"/>
             <p>
 A race of universe-spanning travelers, the hulking, fishlike
 nautilids patrol space in their massive whorl ships,
